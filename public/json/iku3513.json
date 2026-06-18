@@ -1,0 +1,901 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "nama_perpustakaan": "Perpustakaan Probolinggo",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "-",
+            "skor": 91
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Ngadisari",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Ngadisari",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Wonotoro",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Wonotoro",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Jetak",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Jetak",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Ngadas",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Ngadas",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Ngadirejo",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Ngadirejo",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Sariwani",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sariwani",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Sukapura Probolinggo",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sukapura",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Ngepung",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Ngepung",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Krajan",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Wonokerso",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Rambaan",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Remba'an",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Kedawung",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Kedawung",
+            "skor": 61.25
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Sang Juara",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Kedungrejo",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Bantaran",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Bantaran",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Tempuran",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Tempuran",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Tigasan Wetan",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Tigasan Wetan",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Leces",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Leces",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "B24 Perpustakaan Lentera Berdawung",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sumberkedawung",
+            "skor": 2.5
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Kerpangan Kecamatan Leces",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Kerpangan",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Jorongan",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Jorongan",
+            "skor": 2.5
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Klenang Kidul",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Klenangkidul",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Mentari Pustaka",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Alassapi",
+            "skor": 2.5
+        },
+        {
+            "nama_perpustakaan": "B24 Perpustakaan Desa Iqro'",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Pendil",
+            "skor": 33.75
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Lenza Dunia",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Liprak Kidul",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Liprak Kulon",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Liprak Kulon",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Andungbiru",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Andungbiru",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Tiris",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Tiris",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Segaran",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Segaran",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Jangkang",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Jangkang",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Tegalwatu",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Tegalwatu",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Kembeng Gedding",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Tambelang",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Guyangan",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Guyangan",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Kalianan",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Kalianan",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Sentul Kab Probolinggo",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sentul",
+            "skor": 22.5
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Dandang",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Dandang",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Kertosono Kecamatan Gading",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Kertosono",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Duren Mandiri",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Duren",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Gading Wetan",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Gadingwetan",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Wangkal",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Wangkal",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Pelita Condong",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Condong",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Pakuniran",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Pakuniran",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Sumber Kembar Kecamatan Pakuniran",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sumberkembar",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Sogaan",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sogaan",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Kertonegoro",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Kertonegoro",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Tambak Ukir",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Tambakukir",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Sidorejo",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sidorejo",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Kedungrejoso",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Kedungrejoso",
+            "skor": 5
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Triwungan",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Triwungan",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Taman Baca Mbah Koneng",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Kotaanyar",
+            "skor": 70
+        },
+        {
+            "nama_perpustakaan": "B24 Perpustakaan Taman Baca Kali Bambu",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Kalikajar Wetan",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Alas Tengah",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Alastengah",
+            "skor": 71.25
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Harmoni",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sidodadi",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Deska",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Karanganyar",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Paiton",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Paiton",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Kaysar",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sukodadi",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Pondokkelor Pintar",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Podokkelor",
+            "skor": 100
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Pondokkelor Pintar",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Podokkelor",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Sumberanyar Kecamatan Paiton",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sumberanyar",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Sumberrejo",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sumberejo",
+            "skor": 61.25
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Bhinor",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Bhinor",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Bago",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Bago",
+            "skor": 17.5
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Alas Nyiur",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Alasnyiur",
+            "skor": 20
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Lora 87",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sindetlami",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Jambangan",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Jambangan",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Alaskandang",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Alaskandang",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Sumberan",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sumberan",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Kelurahan Semampir",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Semampir",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Kelurahan Sidomukti",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sidomukti",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Kregenan Kecamatan Kraksaan",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Kregenan",
+            "skor": 25
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Bulu Cerdas",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Bulu",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Rangkang Probolinggo",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Rangkang",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Sumberlele",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sumberlele",
+            "skor": 68.75
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Tamansari",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Tamansari",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Kebonagung",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Kebonagung",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Sidopekso",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sidopekso",
+            "skor": 25
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Asembagus",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Asembagus",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Berlian",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Asembagus",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Jatiurip Kecamatan Krejengan",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Jatiurip",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Opo Opo",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Opo Opo",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Cendekia Kamalkuning",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Kamalkuning",
+            "skor": 25
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Krejengan",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Krejengan",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Sentong",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sentong",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Kedungcaluk Kecamatan Krejengan",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Kedungcaluk",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Sukokerto",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sukokerto",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Sukomulyo Kab Probolinggo",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sukomulyo",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Maron Kidul",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Maron Kidul",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Maron Kulon",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Maron Kulon",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Maronwetan",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Maron Wetan",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Suko",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Suko",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Ganting Wetan",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Ganting Wetan",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Brumbungan Lor",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Brumbungan Lor",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Jatiadi",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Jatiadi",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "B24 Perpustakaan Delarasati",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Klaseman",
+            "skor": 53.75
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Pesisir",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Pesisir",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Sebaung",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sebaung",
+            "skor": 73.75
+        },
+        {
+            "nama_perpustakaan": "Rechardo Pustaka",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sumberkerang",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Pajurangan",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Pajurangan",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Sutulus Hati",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Kalirejo",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Kedungdalem",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Kedungdalem",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Cretivox",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Kedungdalem",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Smart Village Kalisalam",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Kalisalam",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "B24 Perpustakaan Desa Gema Cerdas",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Randuputih",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Pabean",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Pabean",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Bulujaran Kidul",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Bulujarankidul",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Harapan Bangsa",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Bulujaranlor",
+            "skor": 50
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Jendela Dunia",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Tegalsiwalan",
+            "skor": 30
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Sumberbulu",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sumberbulu",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Sumberkledung",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sumberkledung",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Blado Kulon",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Bladokulon",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Jangur",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Jangur",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Laweyan Kecamatan Sumberasih",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Laweyan",
+            "skor": 2.5
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Ambulu Kecamatan Sumberasih",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Ambulu",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Maslahah",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Banjarsari",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Lemah Kembar Kecamatan Sumberasih",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Lemahkembar",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Sumberkare",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sumberkare",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "B24 Perpustakaan Rumah Cahaya (Rumah Baca Hasilkan Karya)",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Pohsangit Tengah",
+            "skor": 2.5
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Pohsangit Tengah",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Pohsangit Tengah",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Sepuhgembol",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sepuhgembol",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Pustakareng",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Kareng Kidul",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "B24 Perpustakaan Desa Pintar",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Sumberrejo",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Bayeman",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Bayeman",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "B24 TBM Pelita Aksara Probolinggo",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Bayeman",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Dungun",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Dungun",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Wringinanom",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Wringinanom",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Curahtulis",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Curahtulis",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Desa Mentari",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Tambakrejo",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "Perpustakaan Negororejo",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Negororejo",
+            "skor": "-"
+        },
+        {
+            "nama_perpustakaan": "B24 Perpustakaan Desa Gemilang Jaya",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Branggah",
+            "skor": "-"
+        }
+    ]
+}
