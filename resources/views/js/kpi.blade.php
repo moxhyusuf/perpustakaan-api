@@ -99,7 +99,7 @@
             new Chart(ctxDistribusi, {
                 type: 'doughnut',
                 data: {
-                    labels: ['Sangat Baik (76-100)', 'Cukup (26-75)', 'Kurang (≤25)'],
+                    labels: ['Baik (76-100)', 'Cukup (26-75)', 'Kurang (≤25)'],
                     datasets: [{
                         data: [countSangatBaik, countCukup, countKurang],
                         backgroundColor: [
@@ -142,7 +142,7 @@
                 let kategori = '';
                 let badgeClass = '';
                 if (item.skor >= 76) {
-                    kategori = 'Sangat Baik';
+                    kategori = 'Baik';
                     badgeClass = 'bg-emerald-100 text-emerald-700 border-emerald-200';
                 } else if (item.skor >= 26) {
                     kategori = 'Cukup';

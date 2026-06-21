@@ -33,7 +33,7 @@
 
         <main class="flex-1 px-4 py-6 sm:px-6 lg:px-8 xl:px-10">
             <!-- Summary Counter Cards -->
-            <section class="grid grid-cols-2 gap-4 lg:grid-cols-5 mb-8">
+            <section class="grid grid-cols-2 gap-4 lg:grid-cols-4 mb-8">
                 <div class="bg-white p-4 rounded-2xl border border-slate-200/60 shadow-sm flex items-center gap-4">
                     <div class="h-10 w-10 sm:h-12 sm:w-12 rounded-xl bg-slate-100 text-slate-600 flex items-center justify-center text-lg sm:text-xl shrink-0">
                         <i class="fa-solid fa-building"></i>
@@ -53,22 +53,9 @@
                     </div>
                     <div>
                         <p class="text-xs text-slate-500 font-medium uppercase tracking-wider">
-                            Sangat Baik
-                        </p>
-                        <h4 id="count-sangat-baik" class="text-lg sm:text-xl font-bold text-emerald-600 mt-0.5">
-                            -
-                        </h4>
-                    </div>
-                </div>
-                <div class="bg-white p-4 rounded-2xl border border-slate-200/60 shadow-sm flex items-center gap-4">
-                    <div class="h-10 w-10 sm:h-12 sm:w-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center text-lg sm:text-xl shrink-0">
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <div>
-                        <p class="text-xs text-slate-500 font-medium uppercase tracking-wider">
                             Baik
                         </p>
-                        <h4 id="count-baik" class="text-lg sm:text-xl font-bold text-blue-600 mt-0.5">
+                        <h4 id="count-sangat-baik" class="text-lg sm:text-xl font-bold text-emerald-600 mt-0.5">
                             -
                         </h4>
                     </div>
@@ -87,14 +74,14 @@
                     </div>
                 </div>
                 <div class="bg-white p-4 rounded-2xl border border-slate-200/60 shadow-sm flex items-center gap-4 col-span-2 lg:col-span-1">
-                    <div class="h-10 w-10 sm:h-12 sm:w-12 rounded-xl bg-slate-100 text-slate-500 flex items-center justify-center text-lg sm:text-xl shrink-0">
+                    <div class="h-10 w-10 sm:h-12 sm:w-12 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center text-lg sm:text-xl shrink-0">
                         <i class="fa-solid fa-circle-minus"></i>
                     </div>
                     <div>
                         <p class="text-xs text-slate-500 font-medium uppercase tracking-wider">
                             Kurang / Belum
                         </p>
-                        <h4 id="count-kurang" class="text-lg sm:text-xl font-bold text-slate-600 mt-0.5">
+                        <h4 id="count-kurang" class="text-lg sm:text-xl font-bold text-rose-600 mt-0.5">
                             -
                         </h4>
                     </div>
@@ -124,9 +111,8 @@
                             <select id="filter-kategori" class="w-full px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-theme-green/30 focus:border-theme-green transition">
                                 <option value="">Semua Kategori KPI</option>
                                 <option value="Sangat Baik">
-                                    Kategori: Sangat Baik
+                                    Kategori: Baik
                                 </option>
-                                <option value="Baik">Kategori: Baik</option>
                                 <option value="Cukup">
                                     Kategori: Cukup
                                 </option>
@@ -297,7 +283,7 @@
                                 93.5
                             </div>
                             <div id="modal-kpi-category" class="mt-2 px-3 py-1 rounded-full text-xs font-bold bg-theme-light text-theme-green">
-                                Sangat Baik
+                                Baik
                             </div>
                         </div>
                     </div>
