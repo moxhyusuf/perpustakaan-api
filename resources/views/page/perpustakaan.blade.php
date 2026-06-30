@@ -53,7 +53,7 @@
                     </div>
                     <div>
                         <p class="text-xs text-slate-500 font-medium uppercase tracking-wider">
-                            Baik
+                            Tinggi
                         </p>
                         <h4 id="count-sangat-baik" class="text-lg sm:text-xl font-bold text-emerald-600 mt-0.5">
                             -
@@ -66,7 +66,7 @@
                     </div>
                     <div>
                         <p class="text-xs text-slate-500 font-medium uppercase tracking-wider">
-                            Cukup
+                            Sedang
                         </p>
                         <h4 id="count-cukup" class="text-lg sm:text-xl font-bold text-amber-600 mt-0.5">
                             -
@@ -79,7 +79,7 @@
                     </div>
                     <div>
                         <p class="text-xs text-slate-500 font-medium uppercase tracking-wider">
-                            Kurang / Belum
+                            Rendah / Belum
                         </p>
                         <h4 id="count-kurang" class="text-lg sm:text-xl font-bold text-rose-600 mt-0.5">
                             -
@@ -110,14 +110,14 @@
                         <div class="w-full sm:w-48">
                             <select id="filter-kategori" class="w-full px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-theme-green/30 focus:border-theme-green transition">
                                 <option value="">Semua Kategori KPI</option>
-                                <option value="Sangat Baik">
-                                    Kategori: Baik
+                                <option value="Tinggi">
+                                    Kategori: Tinggi
                                 </option>
-                                <option value="Cukup">
-                                    Kategori: Cukup
+                                <option value="Sedang">
+                                    Kategori: Sedang
                                 </option>
-                                <option value="Kurang">
-                                    Kategori: Kurang
+                                <option value="Rendah">
+                                    Kategori: Rendah
                                 </option>
                                 <option value="Belum Dinilai">
                                     Kategori: Belum Dinilai
@@ -283,7 +283,7 @@
                                 93.5
                             </div>
                             <div id="modal-kpi-category" class="mt-2 px-3 py-1 rounded-full text-xs font-bold bg-theme-light text-theme-green">
-                                Baik
+                                Tinggi
                             </div>
                         </div>
                     </div>
@@ -552,8 +552,8 @@
         </div>
     </div>
 
-    @include('js.api')
-    @include('js.perpustakaan')
+    @include('js.api-js')
+    @include('js.perpustakaan-js')
 </body>
 
 </html>

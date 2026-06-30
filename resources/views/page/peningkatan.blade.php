@@ -127,8 +127,8 @@
         @include('layout.footer')
     </div>
 
-    @include('js.api')
-    @include('js.peningkatan')
+    @include('js.api-js')
+    @include('js.peningkatan-js')
 </body>
 
 </html>

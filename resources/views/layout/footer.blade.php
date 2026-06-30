@@ -7,7 +7,7 @@
             <div>
                 <p class="text-[11px] sm:text-xs text-slate-600">
                     Kabupaten Probolinggo · Transformasi
-                    Perpustakaan Berbasis Digital
+                    Perpustakaan Berbasis Inklusi
                 </p>
             </div>
         </div>

@@ -6,7 +6,7 @@
             "provinsi": "Jawa Timur",
             "kabupaten_kota": "Kab. Probolinggo",
             "desa_kelurahan": "-",
-            "skor": 91
+            "skor": 88.5
         },
         {
             "nama_perpustakaan": "Perpustakaan Ngadisari",
@@ -237,7 +237,7 @@
             "provinsi": "Jawa Timur",
             "kabupaten_kota": "Kab. Probolinggo",
             "desa_kelurahan": "Sentul",
-            "skor": 22.5
+            "skor": 18.75
         },
         {
             "nama_perpustakaan": "Perpustakaan Desa Dandang",
@@ -342,7 +342,7 @@
             "provinsi": "Jawa Timur",
             "kabupaten_kota": "Kab. Probolinggo",
             "desa_kelurahan": "Kotaanyar",
-            "skor": 70
+            "skor": 66.25
         },
         {
             "nama_perpustakaan": "B24 Perpustakaan Taman Baca Kali Bambu",
@@ -356,7 +356,7 @@
             "provinsi": "Jawa Timur",
             "kabupaten_kota": "Kab. Probolinggo",
             "desa_kelurahan": "Alastengah",
-            "skor": 71.25
+            "skor": 73.75
         },
         {
             "nama_perpustakaan": "Perpustakaan Desa Harmoni",
@@ -391,14 +391,7 @@
             "provinsi": "Jawa Timur",
             "kabupaten_kota": "Kab. Probolinggo",
             "desa_kelurahan": "Podokkelor",
-            "skor": 100
-        },
-        {
-            "nama_perpustakaan": "Perpustakaan Pondokkelor Pintar",
-            "provinsi": "Jawa Timur",
-            "kabupaten_kota": "Kab. Probolinggo",
-            "desa_kelurahan": "Podokkelor",
-            "skor": "-"
+            "skor": 90
         },
         {
             "nama_perpustakaan": "Perpustakaan Desa Sumberanyar Kecamatan Paiton",
@@ -426,7 +419,7 @@
             "provinsi": "Jawa Timur",
             "kabupaten_kota": "Kab. Probolinggo",
             "desa_kelurahan": "Bago",
-            "skor": 17.5
+            "skor": 35
         },
         {
             "nama_perpustakaan": "Perpustakaan Alas Nyiur",
@@ -503,7 +496,7 @@
             "provinsi": "Jawa Timur",
             "kabupaten_kota": "Kab. Probolinggo",
             "desa_kelurahan": "Sumberlele",
-            "skor": 68.75
+            "skor": 62.5
         },
         {
             "nama_perpustakaan": "Perpustakaan Tamansari",
@@ -650,7 +643,7 @@
             "provinsi": "Jawa Timur",
             "kabupaten_kota": "Kab. Probolinggo",
             "desa_kelurahan": "Klaseman",
-            "skor": 53.75
+            "skor": 50
         },
         {
             "nama_perpustakaan": "Perpustakaan Pesisir",
@@ -734,7 +727,7 @@
             "provinsi": "Jawa Timur",
             "kabupaten_kota": "Kab. Probolinggo",
             "desa_kelurahan": "Bulujaranlor",
-            "skor": 50
+            "skor": 40
         },
         {
             "nama_perpustakaan": "Perpustakaan Jendela Dunia",
@@ -818,7 +811,7 @@
             "provinsi": "Jawa Timur",
             "kabupaten_kota": "Kab. Probolinggo",
             "desa_kelurahan": "Pohsangit Tengah",
-            "skor": "-"
+            "skor": 20
         },
         {
             "nama_perpustakaan": "Perpustakaan Sepuhgembol",

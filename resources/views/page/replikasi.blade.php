@@ -119,8 +119,8 @@
         @include('layout.footer')
     </div>
 
-    @include('js.api')
-    @include('js.replikasi')
+    @include('js.api-js')
+    @include('js.replikasi-js')
 </body>
 
 </html>

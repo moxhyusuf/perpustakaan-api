@@ -121,8 +121,8 @@
         @include('layout.footer')
     </div>
 
-    @include('js.api')
-    @include('js.publikasi')
+    @include('js.api-js')
+    @include('js.publikasi-js')
 </body>
 
 </html>

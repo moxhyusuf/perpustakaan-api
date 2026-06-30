@@ -124,8 +124,8 @@
         @include('layout.footer')
     </div>
 
-    @include('js.api')
-    @include('js.pelibatan')
+    @include('js.api-js')
+    @include('js.pelibatan-js')
 </body>
 
 </html>

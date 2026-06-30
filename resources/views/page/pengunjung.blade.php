@@ -124,8 +124,8 @@
         @include('layout.footer')
     </div>
 
-    @include('js.api')
-    @include('js.pengunjung')
+    @include('js.api-js')
+    @include('js.pengunjung-js')
 </body>
 
 </html>

@@ -1,9 +1,11 @@
 <?php
+// routes/web.php
 
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
-Route::controller(PageController::class)
+Route::middleware('sync.perpusnas')
+    ->controller(PageController::class)
     ->group(function () {
         Route::get('/', 'beranda');
         Route::get('/pengunjung', 'pengunjung');

@@ -242,7 +242,7 @@
                         </table>
                     </div>
                     <div class="mt-4 border-t border-slate-100 pt-4">
-                        <a href="kpi.html" class="inline-flex items-center gap-2 text-sm font-semibold text-theme-green hover:underline">
+                        <a href="/kpi" class="inline-flex items-center gap-2 text-sm font-semibold text-theme-green hover:underline">
                             Lihat Selengkapnya
                             <i class="fa-solid fa-arrow-right text-xs"></i>
                         </a>
@@ -291,8 +291,8 @@
         @include('layout.footer')
     </div>
 
-    @include('js.api')
-    @include('js.beranda')
+    @include('js.api-js')
+    @include('js.beranda-js')
 </body>
 
 </html>

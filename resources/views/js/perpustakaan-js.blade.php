@@ -63,12 +63,12 @@
                 const skorRaw = item.skor;
                 const skor = (skorRaw === "-" || !skorRaw) ? "-" : parseFloat(skorRaw);
 
-                // Kategorisasi skor: 0-25 Kurang, 26-75 Cukup, 76-100 Sangat Baik
+                // Kategorisasi skor: >75 Tinggi (hijau), >25-75 Sedang (kuning), <=25 Rendah (merah)
                 let kategori = "Belum Dinilai";
                 if (typeof skor === "number") {
-                    if (skor >= 76) kategori = "Baik";
-                    else if (skor >= 26) kategori = "Cukup";
-                    else kategori = "Kurang";
+                    if (skor > 75) kategori = "Tinggi";
+                    else if (skor > 25) kategori = "Sedang";
+                    else kategori = "Rendah";
                 }
 
                 libraryDict[key] = {
@@ -319,20 +319,20 @@
         // Menghitung & Menampilkan Rangkuman Counter Status
         function renderSummaryCounters(data) {
             const total = data.length;
-            let sangatBaik = 0;
-            let cukup = 0;
-            let kurangOrBelum = 0;
+            let tinggi = 0;
+            let sedang = 0;
+            let rendahOrBelum = 0;
 
             data.forEach(item => {
-                if (item.kategori === "Sangat Baik") sangatBaik++;
-                else if (item.kategori === "Cukup") cukup++;
-                else kurangOrBelum++; // Kurang + Belum Dinilai
+                if (item.kategori === "Tinggi") tinggi++;
+                else if (item.kategori === "Sedang") sedang++;
+                else rendahOrBelum++; // Rendah + Belum Dinilai
             });
 
             document.getElementById("count-total").innerText = total.toLocaleString("id-ID");
-            document.getElementById("count-sangat-baik").innerText = sangatBaik.toLocaleString("id-ID");
-            document.getElementById("count-cukup").innerText = cukup.toLocaleString("id-ID");
-            document.getElementById("count-kurang").innerText = kurangOrBelum.toLocaleString("id-ID");
+            document.getElementById("count-sangat-baik").innerText = tinggi.toLocaleString("id-ID");
+            document.getElementById("count-cukup").innerText = sedang.toLocaleString("id-ID");
+            document.getElementById("count-kurang").innerText = rendahOrBelum.toLocaleString("id-ID");
         }
 
         // Populasikan list filter kecamatan
@@ -448,9 +448,9 @@
 
             // Tentukan warna badge kpi
             let badgeColorClass = "bg-slate-100 text-slate-600";
-            if (item.kategori === "Sangat Baik") badgeColorClass = "bg-emerald-50 text-emerald-700 border border-emerald-100";
-            else if (item.kategori === "Cukup") badgeColorClass = "bg-amber-50 text-amber-700 border border-amber-100";
-            else if (item.kategori === "Kurang") badgeColorClass = "bg-red-50 text-red-700 border border-red-100";
+            if (item.kategori === "Tinggi") badgeColorClass = "bg-emerald-50 text-emerald-700 border border-emerald-100";
+            else if (item.kategori === "Sedang") badgeColorClass = "bg-amber-50 text-amber-700 border border-amber-100";
+            else if (item.kategori === "Rendah") badgeColorClass = "bg-red-50 text-red-700 border border-red-100";
 
             // Format skor kpi
             const displaySkor = typeof item.skor === "number" ? item.skor.toFixed(1) : "-";
@@ -601,9 +601,9 @@
 
             // Hapus class warna sebelumnya
             modalBadge.className = "px-3 py-1 rounded-full text-xs font-bold shadow-sm ";
-            if (item.kategori === "Sangat Baik") modalBadge.className += "bg-emerald-100 text-emerald-700";
-            else if (item.kategori === "Cukup") modalBadge.className += "bg-amber-100 text-amber-700";
-            else if (item.kategori === "Kurang") modalBadge.className += "bg-red-100 text-red-700";
+            if (item.kategori === "Tinggi") modalBadge.className += "bg-emerald-100 text-emerald-700";
+            else if (item.kategori === "Sedang") modalBadge.className += "bg-amber-100 text-amber-700";
+            else if (item.kategori === "Rendah") modalBadge.className += "bg-red-100 text-red-700";
             else modalBadge.className += "bg-slate-100 text-slate-600";
 
             // 3. Set Profile Details
@@ -618,9 +618,9 @@
             const kpiCategoryBadge = document.getElementById("modal-kpi-category");
             kpiCategoryBadge.innerText = item.kategori;
             kpiCategoryBadge.className = "mt-2 px-3 py-1 rounded-full text-xs font-bold ";
-            if (item.kategori === "Sangat Baik") kpiCategoryBadge.className += "bg-emerald-50 text-emerald-700 border border-emerald-100";
-            else if (item.kategori === "Cukup") kpiCategoryBadge.className += "bg-amber-50 text-amber-700 border border-amber-100";
-            else if (item.kategori === "Kurang") kpiCategoryBadge.className += "bg-red-50 text-red-700 border border-red-100";
+            if (item.kategori === "Tinggi") kpiCategoryBadge.className += "bg-emerald-50 text-emerald-700 border border-emerald-100";
+            else if (item.kategori === "Sedang") kpiCategoryBadge.className += "bg-amber-50 text-amber-700 border border-amber-100";
+            else if (item.kategori === "Rendah") kpiCategoryBadge.className += "bg-red-50 text-red-700 border border-red-100";
             else kpiCategoryBadge.className += "bg-slate-100 text-slate-500 border border-slate-200";
 
             // 5. Set Stats Overview Cards

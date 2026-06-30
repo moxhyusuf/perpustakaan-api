@@ -85,23 +85,23 @@
             });
 
             // B. Doughnut Chart: Distribusi Skor (Disesuaikan)
-            let countSangatBaik = 0; // 76 - 100 (Hijau)
-            let countCukup = 0; // 26 - 75 (Kuning)
-            let countKurang = 0; // 0 - 25 (Merah)
+            let countTinggi = 0; // >75 (Hijau)
+            let countSedang = 0; // >25-75 (Kuning)
+            let countRendah = 0; // <=25 (Merah)
 
             validKpiData.forEach(item => {
-                if (item.skor >= 76) countSangatBaik++;
-                else if (item.skor >= 26) countCukup++;
-                else countKurang++;
+                if (item.skor > 75) countTinggi++;
+                else if (item.skor > 25) countSedang++;
+                else countRendah++;
             });
 
             const ctxDistribusi = document.getElementById('chart-distribusi').getContext('2d');
             new Chart(ctxDistribusi, {
                 type: 'doughnut',
                 data: {
-                    labels: ['Baik (76-100)', 'Cukup (26-75)', 'Kurang (≤25)'],
+                    labels: ['Tinggi (>75)', 'Sedang (26-75)', 'Rendah (≤25)'],
                     datasets: [{
-                        data: [countSangatBaik, countCukup, countKurang],
+                        data: [countTinggi, countSedang, countRendah],
                         backgroundColor: [
                             '#10b981', // emerald-500 (Hijau)
                             '#f59e0b', // amber-500 (Kuning)
@@ -141,14 +141,14 @@
                 // Tentukan kategori dan warna badge berdasarkan rule baru
                 let kategori = '';
                 let badgeClass = '';
-                if (item.skor >= 76) {
-                    kategori = 'Baik';
+                if (item.skor > 75) {
+                    kategori = 'Tinggi';
                     badgeClass = 'bg-emerald-100 text-emerald-700 border-emerald-200';
-                } else if (item.skor >= 26) {
-                    kategori = 'Cukup';
+                } else if (item.skor > 25) {
+                    kategori = 'Sedang';
                     badgeClass = 'bg-amber-100 text-amber-700 border-amber-200';
                 } else {
-                    kategori = 'Kurang';
+                    kategori = 'Rendah';
                     badgeClass = 'bg-red-100 text-red-700 border-red-200';
                 }
 

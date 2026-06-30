@@ -124,8 +124,8 @@
         @include('layout.footer')
     </div>
 
-    @include('js.api')
-    @include('js.kpi')
+    @include('js.api-js')
+    @include('js.kpi-js')
 </body>
 
 </html>

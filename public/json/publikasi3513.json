@@ -2,6 +2,202 @@
     "status": "success",
     "data": [
         {
+            "perpus_nama": "Perpustakaan Desa Pohsangit Tengah",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": "Wonomerto",
+            "desa_name": "Pohsangit Tengah",
+            "tanggal": "2026-06-01",
+            "judul": "KEGIATAN LITERASI PUSTAKA BERGERAK",
+            "jenis_publikasi": "Media Online",
+            "nama_media": "RB CAHAYA PROBOLINGGO",
+            "link": "https://rbcahayaprobolinggo.lovable.app/",
+            "tanggal_input": "2026-06-24",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
+            "perpus_nama": "Perpustakaan Probolinggo",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": " - ",
+            "desa_name": " - ",
+            "tanggal": "2026-06-23",
+            "judul": "Pondokkelor Pintar Juara 1, Inspirasi Budaya Literasi di Desa",
+            "jenis_publikasi": "Media Online",
+            "nama_media": "Instagram Pemkab Probolinggo",
+            "link": "https://www.instagram.com/p/DZ4vq-NMrV_/",
+            "tanggal_input": "2026-06-23",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
+            "perpus_nama": "Perpustakaan Probolinggo",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": " - ",
+            "desa_name": " - ",
+            "tanggal": "2026-06-22",
+            "judul": "Perpustakaan Pondokkelor Pintar Raih Juara 1 Lomba Perpustakaan Desa dan Kelurahan Terbaik 2026",
+            "jenis_publikasi": "Media Online",
+            "nama_media": "Website Pemkab Probolinggo",
+            "link": "https://probolinggokab.go.id/perpustakaan-pondokkelor-pintar-raih-juara-1-lomba-perpustakaan-desa-dan-kelurahan-terbaik-2026/",
+            "tanggal_input": "2026-06-23",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
+            "perpus_nama": "Perpustakaan Probolinggo",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": " - ",
+            "desa_name": " - ",
+            "tanggal": "2026-06-22",
+            "judul": "Dispersip Kabupaten Probolinggo Apresiasi Semangat Literasi 11 Desa Peserta Lomba Perpustakaan Desa dan Kelurahan Terbaik 2026",
+            "jenis_publikasi": "Media Online",
+            "nama_media": "Lensa Update",
+            "link": "https://www.lensa-update.com/2026/06/dispersip-kabupaten-probolinggo_02108144767.html",
+            "tanggal_input": "2026-06-23",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
+            "perpus_nama": "Perpustakaan Probolinggo",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": " - ",
+            "desa_name": " - ",
+            "tanggal": "2026-01-22",
+            "judul": "Dispersip Kabupaten Probolinggo Apresiasi Semangat Literasi 11 Desa Peserta Lomba Perpustakaan Desa dan Kelurahan Terbaik 2026",
+            "jenis_publikasi": "Media Online",
+            "nama_media": "Lensa Update",
+            "link": "https://www.lensa-update.com/2026/06/dispersip-kabupaten-probolinggo_02108144767.html",
+            "tanggal_input": "2026-06-23",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
+            "perpus_nama": "Perpustakaan Probolinggo",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": " - ",
+            "desa_name": " - ",
+            "tanggal": "2026-06-18",
+            "judul": "Tingkatkan Literasi Digital, Dispersip Kabupaten Probolinggo Gelar Workshop Inlislite",
+            "jenis_publikasi": "Media Online",
+            "nama_media": "Website Pemkab Probolinggo",
+            "link": "https://probolinggokab.go.id/tingkatkan-literasi-digital-dispersip-kabupaten-probolinggo-gelar-workshop-inlislite/",
+            "tanggal_input": "2026-06-23",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
+            "perpus_nama": "Perpustakaan Probolinggo",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": " - ",
+            "desa_name": " - ",
+            "tanggal": "2026-01-18",
+            "judul": "Tingkatkan Literasi Digital, Dispersip Kabupaten Probolinggo Gelar Workshop Inlislite",
+            "jenis_publikasi": "Media Online",
+            "nama_media": "Website Pemkab Probolinggo",
+            "link": "https://probolinggokab.go.id/tingkatkan-literasi-digital-dispersip-kabupaten-probolinggo-gelar-workshop-inlislite/",
+            "tanggal_input": "2026-06-23",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
+            "perpus_nama": "Perpustakaan Desa Alas Tengah",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": "Paiton",
+            "desa_name": "Alastengah",
+            "tanggal": "2026-06-21",
+            "judul": "pengenalan tata tertib perpustakaan desa",
+            "jenis_publikasi": "Media Elektronik",
+            "nama_media": "tik tok",
+            "link": "-",
+            "tanggal_input": "2026-06-23",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
+            "perpus_nama": "Perpustakaan Desa Alas Tengah",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": "Paiton",
+            "desa_name": "Alastengah",
+            "tanggal": "2026-06-20",
+            "judul": "perkenalan buku2 perpustakaan",
+            "jenis_publikasi": "Media Elektronik",
+            "nama_media": "tiktok",
+            "link": "-",
+            "tanggal_input": "2026-06-23",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
+            "perpus_nama": "Perpustakaan Desa Alas Tengah",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": "Paiton",
+            "desa_name": "Alastengah",
+            "tanggal": "2026-06-20",
+            "judul": "lomba perpustakaan desa guna menambah ilmu dan pengetahuan para pustakwan",
+            "jenis_publikasi": "Media Online",
+            "nama_media": "insatagram",
+            "link": "https://www.instagram.com/p/DZzRyZLEoX6/?igsh=MThpMmQ1ZWlsc3Y2cw%3D%3D",
+            "tanggal_input": "2026-06-23",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
+            "perpus_nama": "Perpustakaan Desa Alas Tengah",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": "Paiton",
+            "desa_name": "Alastengah",
+            "tanggal": "2026-06-20",
+            "judul": "melakukan advokasi kpd kader posyandu dn pkk untuk hibah buku",
+            "jenis_publikasi": "Media Online",
+            "nama_media": "instagram",
+            "link": "https://www.instagram.com/p/DZzRJ2Gy5u3/?igsh=MThxNzFqdmZlOXo5eA%3D%3D",
+            "tanggal_input": "2026-06-23",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
+            "perpus_nama": "B24 Perpustakaan Delarasati",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": "Gending",
+            "desa_name": "Klaseman",
+            "tanggal": "2026-06-10",
+            "judul": "Pemeriksaan Prolanis desa klaseman bersama labsekda",
+            "jenis_publikasi": "Media Elektronik",
+            "nama_media": "Klaseman asyiik ",
+            "link": "-",
+            "tanggal_input": "2026-06-20",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
+            "perpus_nama": "B24 Perpustakaan Delarasati",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": "Gending",
+            "desa_name": "Klaseman",
+            "tanggal": "2026-06-12",
+            "judul": "Kegiatan kelas ibu balita bersma puskesmas gending",
+            "jenis_publikasi": "Media Elektronik",
+            "nama_media": "Klaseman asyiiikkkk ",
+            "link": "-",
+            "tanggal_input": "2026-06-20",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
+            "perpus_nama": "Perpustakaan Desa Alas Tengah",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": "Paiton",
+            "desa_name": "Alastengah",
+            "tanggal": "2026-06-20",
+            "judul": "Perkenalan perpustakaan desa",
+            "jenis_publikasi": "Media Online",
+            "nama_media": "Instahram",
+            "link": "https://www.instagram.com/reel/DZzMSKSSJde/?igsh=NGE0a3Ftc2lrZXhs",
+            "tanggal_input": "2026-06-20",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
             "perpus_nama": "Perpustakaan Desa Alas Tengah",
             "provinsi_name": "Jawa Timur",
             "kabupaten_name": "Kab. Probolinggo",
@@ -11,7 +207,7 @@
             "judul": "MEMANFAATKAN PERTEMUAN POSYANDU GUNA MMEPROMOSIKAN PERPUSTAKAAN",
             "jenis_publikasi": "Media Online",
             "nama_media": "ISTAGRAM",
-            "link": "https:\/\/www.instagram.com\/p\/DZsSozRyCCt\/?utm_source=ig_web_copy_link&amp;igsh=NTc4MTIwNjQ2YQ==",
+            "link": "https://www.instagram.com/p/DZsSozRyCCt/?utm_source=ig_web_copy_link&amp;igsh=NTc4MTIwNjQ2YQ==",
             "tanggal_input": "2026-06-17",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -25,7 +221,7 @@
             "judul": "PENGENALAN PERPUSTKAAN",
             "jenis_publikasi": "Media Online",
             "nama_media": "ISTAGRAM",
-            "link": "https:\/\/www.instagram.com\/p\/DZYWftFTrlM\/?utm_source=ig_web_copy_link&amp;igsh=NTc4MTIwNjQ2YQ==",
+            "link": "https://www.instagram.com/p/DZYWftFTrlM/?utm_source=ig_web_copy_link&amp;igsh=NTc4MTIwNjQ2YQ==",
             "tanggal_input": "2026-06-17",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -53,7 +249,7 @@
             "judul": "liberray marketing",
             "jenis_publikasi": "Media Online",
             "nama_media": "instagram",
-            "link": "https:\/\/www.instagram.com\/p\/DZTugKEEknA\/?igsh=YXJkeDFmeXpyeW50",
+            "link": "https://www.instagram.com/p/DZTugKEEknA/?igsh=YXJkeDFmeXpyeW50",
             "tanggal_input": "2026-06-08",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -67,7 +263,7 @@
             "judul": "Sekolah Literasi : Kelas Literasi Wirausaha",
             "jenis_publikasi": "Media Online",
             "nama_media": "Instagram",
-            "link": "https:\/\/www.instagram.com\/p\/DZJtJuZxXep\/",
+            "link": "https://www.instagram.com/p/DZJtJuZxXep/",
             "tanggal_input": "2026-06-08",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -81,7 +277,7 @@
             "judul": "Publikasi lomba video konten literasi",
             "jenis_publikasi": "Media Online",
             "nama_media": "Instagram",
-            "link": "https:\/\/www.instagram.com\/p\/DZHJ22ExcaO\/",
+            "link": "https://www.instagram.com/p/DZHJ22ExcaO/",
             "tanggal_input": "2026-06-08",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -95,7 +291,7 @@
             "judul": "Sekolah Literasi : Kelas Tari bersama Sanggarseni Prabulinggih",
             "jenis_publikasi": "Media Online",
             "nama_media": "Instagram",
-            "link": "https:\/\/www.instagram.com\/p\/DZAETBACqYB\/",
+            "link": "https://www.instagram.com/p/DZAETBACqYB/",
             "tanggal_input": "2026-06-08",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -109,7 +305,7 @@
             "judul": "UMKM Groya Lokas Moringa (GLAMOR) Desa Pondokkelor",
             "jenis_publikasi": "Media Cetak",
             "nama_media": "Radar Bromo",
-            "link": "https:\/\/transformasi.perpusnas.go.id\/attachments\/publikasi\/CLRetga3Ar_25.mei.2026.Koran.jpeg",
+            "link": "https://transformasi.perpusnas.go.id/attachments/publikasi/CLRetga3Ar_25.mei.2026.Koran.jpeg",
             "tanggal_input": "2026-06-01",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -375,7 +571,7 @@
             "judul": "Penguatan Nilai Kebersamaan melalui Kegiatan Kerja Bakti Bersih Makam",
             "jenis_publikasi": "Media Online",
             "nama_media": "Instagram",
-            "link": "https:\/\/www.instagram.com\/p\/DUzoOYCk5GM\/",
+            "link": "https://www.instagram.com/p/DUzoOYCk5GM/",
             "tanggal_input": "2026-06-01",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -445,7 +641,7 @@
             "judul": "Gotong Royong Bersih Makam Bersama Karang Taruna, Perangkat Desa, dan Masyarakat",
             "jenis_publikasi": "Media Online",
             "nama_media": "Instagram ",
-            "link": "https:\/\/www.instagram.com\/p\/DUgaRegk3Y9\/",
+            "link": "https://www.instagram.com/p/DUgaRegk3Y9/",
             "tanggal_input": "2026-06-01",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -459,7 +655,7 @@
             "judul": "Kegiatan Pojok Baca perpusdes Sumberlele jaya",
             "jenis_publikasi": "Media Online",
             "nama_media": "Facebook",
-            "link": "https:\/\/www.facebook.com\/100093544553504\/posts\/875804098881067\/?app=fbl",
+            "link": "https://www.facebook.com/100093544553504/posts/875804098881067/?app=fbl",
             "tanggal_input": "2026-05-30",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -473,7 +669,7 @@
             "judul": "Kegiatan Pojok Baca perpusdes Sumberlele jaya",
             "jenis_publikasi": "Media Online",
             "nama_media": "INSTAGRAM",
-            "link": "https:\/\/www.instagram.com\/p\/DY5nIj4k-I1y88YoXVSLRMp5nIUBVzd2aK0F8E0\/?igsh=MXV6b3htMWxiYjAweQ==",
+            "link": "https://www.instagram.com/p/DY5nIj4k-I1y88YoXVSLRMp5nIUBVzd2aK0F8E0/?igsh=MXV6b3htMWxiYjAweQ==",
             "tanggal_input": "2026-05-30",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -487,7 +683,7 @@
             "judul": "Perpusdes Sumberlele Jaya Sapa Emak2 Warga Desa Sumberlele",
             "jenis_publikasi": "Media Online",
             "nama_media": "Facebook",
-            "link": "https:\/\/www.facebook.com\/100093544553504\/posts\/872924469169030\/?app=fbl",
+            "link": "https://www.facebook.com/100093544553504/posts/872924469169030/?app=fbl",
             "tanggal_input": "2026-05-30",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -501,7 +697,7 @@
             "judul": "Perpusdes Sumberlele Jaya Sapa Emak2 Warga Desa Sumberlele",
             "jenis_publikasi": "Media Online",
             "nama_media": "INSTAGRAM",
-            "link": "https:\/\/www.instagram.com\/p\/DYw3s_nD4MV6uABcGdjHoOpQ1CHbccSx4VJL3w0\/?igsh=MXNobHlramV1dnV3dA==",
+            "link": "https://www.instagram.com/p/DYw3s_nD4MV6uABcGdjHoOpQ1CHbccSx4VJL3w0/?igsh=MXNobHlramV1dnV3dA==",
             "tanggal_input": "2026-05-30",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -515,7 +711,7 @@
             "judul": "Sosialisasi Digital Marketing UMKM Desa Sumberlele",
             "jenis_publikasi": "Media Online",
             "nama_media": "Facebook",
-            "link": "https:\/\/www.facebook.com\/100093544553504\/posts\/871923025935841\/?app=fbl",
+            "link": "https://www.facebook.com/100093544553504/posts/871923025935841/?app=fbl",
             "tanggal_input": "2026-05-30",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -529,7 +725,7 @@
             "judul": "Sosialisasi Digital Marketing UMKM Desa Sumberlele",
             "jenis_publikasi": "Media Online",
             "nama_media": "INSTAGRAM",
-            "link": "https:\/\/www.instagram.com\/p\/DYtuv65D3WiaDd70tYXLKiBEofDoSDriVzXL3o0\/?igsh=MWhsa21wZHB0MHExZA==",
+            "link": "https://www.instagram.com/p/DYtuv65D3WiaDd70tYXLKiBEofDoSDriVzXL3o0/?igsh=MWhsa21wZHB0MHExZA==",
             "tanggal_input": "2026-05-30",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -557,7 +753,7 @@
             "judul": "Dispersip Kabupaten Probolinggo Gelar Pendataan Perpustakaan Sekolah Tahun 2026",
             "jenis_publikasi": "Media Online",
             "nama_media": "Website Pemkab Probolinggo",
-            "link": "https:\/\/probolinggokab.go.id\/dispersip-kabupaten-probolinggo-gelar-pendataan-perpustakaan-sekolah-tahun-2026\/",
+            "link": "https://probolinggokab.go.id/dispersip-kabupaten-probolinggo-gelar-pendataan-perpustakaan-sekolah-tahun-2026/",
             "tanggal_input": "2026-05-21",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -571,7 +767,7 @@
             "judul": "Cerita Rakyat Kembali Hidup di Aula Pustakaloka, Dispersip Probolinggo Gelar Lomba Bertutur",
             "jenis_publikasi": "Media Online",
             "nama_media": "Jawara Post",
-            "link": "https:\/\/www.jawarapost.com\/terkini\/cerita-rakyat-kembali-hidup-di-aula-pustakaloka-dispersip-probolinggo-gelar-lomba-bertutur\/",
+            "link": "https://www.jawarapost.com/terkini/cerita-rakyat-kembali-hidup-di-aula-pustakaloka-dispersip-probolinggo-gelar-lomba-bertutur/",
             "tanggal_input": "2026-05-18",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -585,7 +781,7 @@
             "judul": "Dispersip Kabupaten Probolinggo Hidupkan Cerita Rakyat Lewat Lomba Bertutur",
             "jenis_publikasi": "Media Online",
             "nama_media": "The DNA News",
-            "link": "https:\/\/thedna.co.id\/dispersip-kabupaten-probolinggo-hidupkan-cerita-rakyat-lewat-lomba-bertutur\/",
+            "link": "https://thedna.co.id/dispersip-kabupaten-probolinggo-hidupkan-cerita-rakyat-lewat-lomba-bertutur/",
             "tanggal_input": "2026-05-18",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -599,7 +795,7 @@
             "judul": "Dispersip Kabupaten Probolinggo Gelar Seminar STIFIn Bahas Potensi Genetik Diri",
             "jenis_publikasi": "Media Online",
             "nama_media": "Patroli Pos",
-            "link": "https:\/\/www.patrolipos.co.id\/dispersip-kabupaten-probolinggo-gelar-seminar-stifin-bahas-potensi-genetik-diri\/",
+            "link": "https://www.patrolipos.co.id/dispersip-kabupaten-probolinggo-gelar-seminar-stifin-bahas-potensi-genetik-diri/",
             "tanggal_input": "2026-05-12",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -613,7 +809,7 @@
             "judul": "Dispersip Kabupaten Probolinggo Gelar Seminar STIFIn Pengembangan Potensi Diri",
             "jenis_publikasi": "Media Online",
             "nama_media": "Lensa Update",
-            "link": "https:\/\/www.lensa-update.com\/2026\/05\/dispersip-kabupaten-probolinggo-gelar.html",
+            "link": "https://www.lensa-update.com/2026/05/dispersip-kabupaten-probolinggo-gelar.html",
             "tanggal_input": "2026-05-12",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -627,7 +823,7 @@
             "judul": "STIFIn Hadir di Perpusda, Mantara Bekali Warga Probolinggo soal Parenting",
             "jenis_publikasi": "Media Online",
             "nama_media": "The DNA News",
-            "link": "https:\/\/thedna.co.id\/stifin-hadir-di-perpusda-mantara-bekali-warga-probolinggo-soal-parenting\/",
+            "link": "https://thedna.co.id/stifin-hadir-di-perpusda-mantara-bekali-warga-probolinggo-soal-parenting/",
             "tanggal_input": "2026-05-11",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -641,7 +837,7 @@
             "judul": "Dispersip Kabupaten Probolinggo Gelar Seminar STIFIn Bahas Potensi Genetik Diri",
             "jenis_publikasi": "Media Online",
             "nama_media": "Website Pemkab Probolinggo",
-            "link": "https:\/\/probolinggokab.go.id\/dispersip-kabupaten-probolinggo-gelar-seminar-stifin-bahas-potensi-genetik-diri\/",
+            "link": "https://probolinggokab.go.id/dispersip-kabupaten-probolinggo-gelar-seminar-stifin-bahas-potensi-genetik-diri/",
             "tanggal_input": "2026-05-11",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -655,7 +851,7 @@
             "judul": "Seminar STIFIn",
             "jenis_publikasi": "Media Online",
             "nama_media": "Instagram",
-            "link": "https:\/\/www.instagram.com\/p\/DYD7ByKD20K\/",
+            "link": "https://www.instagram.com/p/DYD7ByKD20K/",
             "tanggal_input": "2026-05-11",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -697,7 +893,7 @@
             "judul": "Posyandu Lansia dan pemeriksaan gula darah Gratis Desa Sumberlele",
             "jenis_publikasi": "Media Online",
             "nama_media": "Facebook",
-            "link": "https:\/\/www.facebook.com\/100093544553504\/posts\/850429731418504\/?app=fbl",
+            "link": "https://www.facebook.com/100093544553504/posts/850429731418504/?app=fbl",
             "tanggal_input": "2026-04-30",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -711,7 +907,7 @@
             "judul": "Posyandu Lansia dan pemeriksaan gula darah Gratis Desa Sumberlele",
             "jenis_publikasi": "Media Online",
             "nama_media": "Instagram",
-            "link": "https:\/\/www.instagram.com\/p\/DXq-k9ID7fZRuplmVSVeZHDlbjFxqEe1dNhEfw0\/?img_index=1&amp;igsh=c3F1cHNwZjM3aXg=",
+            "link": "https://www.instagram.com/p/DXq-k9ID7fZRuplmVSVeZHDlbjFxqEe1dNhEfw0/?img_index=1&amp;igsh=c3F1cHNwZjM3aXg=",
             "tanggal_input": "2026-04-30",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -725,7 +921,7 @@
             "judul": "Kunjumgan Perangkat Desa Sumberlele Keperpusdes Sumberlele Jaya",
             "jenis_publikasi": "Media Online",
             "nama_media": "Facebook",
-            "link": "https:\/\/www.facebook.com\/100093544553504\/posts\/850433394751471\/?app=fbl",
+            "link": "https://www.facebook.com/100093544553504/posts/850433394751471/?app=fbl",
             "tanggal_input": "2026-04-30",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -739,7 +935,7 @@
             "judul": "Kunjumgan Perangkat Desa Sumberlele Keperpusdes Sumberlele Jaya",
             "jenis_publikasi": "Media Online",
             "nama_media": "Instagram",
-            "link": "https:\/\/www.instagram.com\/p\/DXq_U-8DyUwdOQ3tNLfd9HInNmJMAxkrAH3P7M0\/?igsh=MWc4dWc3a3QybHAyZw==",
+            "link": "https://www.instagram.com/p/DXq_U-8DyUwdOQ3tNLfd9HInNmJMAxkrAH3P7M0/?igsh=MWc4dWc3a3QybHAyZw==",
             "tanggal_input": "2026-04-30",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -753,7 +949,7 @@
             "judul": "Bimbingan Teknis SPP-TIK",
             "jenis_publikasi": "Media Online",
             "nama_media": "Instagram",
-            "link": "https:\/\/www.instagram.com\/p\/DXoZ07IEQIJ\/",
+            "link": "https://www.instagram.com/p/DXoZ07IEQIJ/",
             "tanggal_input": "2026-04-29",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -767,7 +963,7 @@
             "judul": "Sekolah Literasi : Kelas Tari",
             "jenis_publikasi": "Media Online",
             "nama_media": "Instagram",
-            "link": "https:\/\/www.instagram.com\/p\/DXnmkJUkeAu\/",
+            "link": "https://www.instagram.com/p/DXnmkJUkeAu/",
             "tanggal_input": "2026-04-29",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -795,7 +991,7 @@
             "judul": "Perkuat Literasi Desa, Dispersip Kabupaten Probolinggo Gelar Bimtek Strategi Pengembangan Perpustakaan dan TIK",
             "jenis_publikasi": "Media Online",
             "nama_media": "Website Pemkab Probolinggo",
-            "link": "https:\/\/probolinggokab.go.id\/perkuat-literasi-desa-dispersip-kabupaten-probolinggo-gelar-bimtek-strategi-pengembangan-perpustakaan-dan-tik\/",
+            "link": "https://probolinggokab.go.id/perkuat-literasi-desa-dispersip-kabupaten-probolinggo-gelar-bimtek-strategi-pengembangan-perpustakaan-dan-tik/",
             "tanggal_input": "2026-04-23",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -837,7 +1033,7 @@
             "judul": "BIMTEK SPP TIK TA. 2026",
             "jenis_publikasi": "Media Online",
             "nama_media": "Instragram",
-            "link": "https:\/\/www.instagram.com\/p\/DXaraVLkstz\/?img_index=1&amp;igsh=MWh5NGh6Y3Vmd2V0aw==",
+            "link": "https://www.instagram.com/p/DXaraVLkstz/?img_index=1&amp;igsh=MWh5NGh6Y3Vmd2V0aw==",
             "tanggal_input": "2026-04-22",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -865,7 +1061,7 @@
             "judul": "kunjungan oleh paud sumber ceria desa sumberrejo",
             "jenis_publikasi": "Media Online",
             "nama_media": "facebook",
-            "link": "https:\/\/web.facebook.com\/share\/r\/1DTGdA9qrb\/",
+            "link": "https://web.facebook.com/share/r/1DTGdA9qrb/",
             "tanggal_input": "2026-04-02",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -879,7 +1075,7 @@
             "judul": "Kegiatan berbagi takjil Ibu Pkk Desa Sumberlele",
             "jenis_publikasi": "Media Online",
             "nama_media": "FACEBOOK",
-            "link": "https:\/\/www.facebook.com\/100093544553504\/posts\/809832458811565\/?app=fbl",
+            "link": "https://www.facebook.com/100093544553504/posts/809832458811565/?app=fbl",
             "tanggal_input": "2026-03-31",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -893,7 +1089,7 @@
             "judul": "Kegiatan berbagi takjil Ibu Pkk Desa Sumberlele",
             "jenis_publikasi": "Media Online",
             "nama_media": "INSTAGRAM",
-            "link": "https:\/\/www.instagram.com\/p\/DVn0E8CD6ruHDmM7agayVvU3tm0FjCzzjql7XE0\/?igsh=MTc0OXM3eXd5NDluOA==",
+            "link": "https://www.instagram.com/p/DVn0E8CD6ruHDmM7agayVvU3tm0FjCzzjql7XE0/?igsh=MTc0OXM3eXd5NDluOA==",
             "tanggal_input": "2026-03-31",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -907,7 +1103,7 @@
             "judul": "Kegiatan Posyandu Lansia sukun 01",
             "jenis_publikasi": "Media Online",
             "nama_media": "Facebook",
-            "link": "https:\/\/www.facebook.com\/share\/p\/179iemxjdn\/",
+            "link": "https://www.facebook.com/share/p/179iemxjdn/",
             "tanggal_input": "2026-03-29",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -921,7 +1117,7 @@
             "judul": "Kegiatan Mengaji di perpusdes Iqro pendil oleh ibu ibu kader dan PKK",
             "jenis_publikasi": "Media Online",
             "nama_media": "Facebook",
-            "link": "https:\/\/www.facebook.com\/share\/p\/1DS6K3JW9d\/",
+            "link": "https://www.facebook.com/share/p/1DS6K3JW9d/",
             "tanggal_input": "2026-03-25",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -935,7 +1131,7 @@
             "judul": "Posyandu Reamaja sukun 1",
             "jenis_publikasi": "Media Online",
             "nama_media": "Facebook",
-            "link": "https:\/\/www.facebook.com\/share\/p\/17ntJir1cr\/",
+            "link": "https://www.facebook.com/share/p/17ntJir1cr/",
             "tanggal_input": "2026-03-25",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -949,7 +1145,7 @@
             "judul": "kegiatan Pojok Baca oleh Perpusdes Iqro Pendil dan Pokja II di Sekolah TK ABA 2 pendil.",
             "jenis_publikasi": "Media Online",
             "nama_media": "Fcebook",
-            "link": "https:\/\/www.facebook.com\/share\/p\/1CPQvVjjdj\/",
+            "link": "https://www.facebook.com/share/p/1CPQvVjjdj/",
             "tanggal_input": "2026-03-25",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -963,7 +1159,7 @@
             "judul": "Pojok Baca oleh perpusdes Iqro Desa Pendil dan Pokja II di Sukun 2 dalam kegiatan Posyandu Remaja.",
             "jenis_publikasi": "Media Online",
             "nama_media": "Facebook",
-            "link": "https:\/\/www.facebook.com\/share\/p\/1Drse7PuJS\/",
+            "link": "https://www.facebook.com/share/p/1Drse7PuJS/",
             "tanggal_input": "2026-03-25",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -977,7 +1173,7 @@
             "judul": "Manfaat Bertukar Pikiran",
             "jenis_publikasi": "Media Cetak",
             "nama_media": "Media Informasi Perpustakaan Desa Kedawung",
-            "link": "https:\/\/transformasi.perpusnas.go.id\/attachments\/publikasi\/AsihYfF130_Cokelat.Dan.Biru.Ilustrasi.Manfaat.Pada.Bertukar.Pikiran.Poster.20260319.010615.0000.png",
+            "link": "https://transformasi.perpusnas.go.id/attachments/publikasi/AsihYfF130_Cokelat.Dan.Biru.Ilustrasi.Manfaat.Pada.Bertukar.Pikiran.Poster.20260319.010615.0000.png",
             "tanggal_input": "2026-03-19",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1005,7 +1201,7 @@
             "judul": "Sosialisasi Program Perpustakaan Desa Kedawung",
             "jenis_publikasi": "Media Online",
             "nama_media": "@perpusdeskedawung",
-            "link": "https:\/\/www.instagram.com\/p\/DV7k4AjgYR7\/?igsh=MWZ2ZWNxOXA0ZTk2bA==",
+            "link": "https://www.instagram.com/p/DV7k4AjgYR7/?igsh=MWZ2ZWNxOXA0ZTk2bA==",
             "tanggal_input": "2026-03-16",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1047,7 +1243,7 @@
             "judul": "Tips Bijak dalam Bermedia Sosial",
             "jenis_publikasi": "Media Cetak",
             "nama_media": "Media Informasi Perpustakaan Desa Kedawung",
-            "link": "https:\/\/transformasi.perpusnas.go.id\/attachments\/publikasi\/JMLcqedTKP_Biru.Kreatif.Tips.Bijak.Dalam.Bersosial.Media.Poster.20260311.154345.0000.png",
+            "link": "https://transformasi.perpusnas.go.id/attachments/publikasi/JMLcqedTKP_Biru.Kreatif.Tips.Bijak.Dalam.Bersosial.Media.Poster.20260311.154345.0000.png",
             "tanggal_input": "2026-03-11",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1089,7 +1285,7 @@
             "judul": "Ubah Kebiasaan Keuanganmu dengan Tips Berikut",
             "jenis_publikasi": "Media Online",
             "nama_media": "@perpusdeskedawung",
-            "link": "https:\/\/www.instagram.com\/p\/DVrWSo7E70S\/?igsh=MTVrY2FnaTV6anVo",
+            "link": "https://www.instagram.com/p/DVrWSo7E70S/?igsh=MTVrY2FnaTV6anVo",
             "tanggal_input": "2026-03-10",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1173,7 +1369,7 @@
             "judul": "Poster Edukasi: Jaga Kebersihan Perpustakaan Desa",
             "jenis_publikasi": "Media Cetak",
             "nama_media": "Media Informasi Perpustakaan Desa Kedawung",
-            "link": "https:\/\/transformasi.perpusnas.go.id\/attachments\/publikasi\/M9Oulv2QtU_IMG.20260305.233626.png",
+            "link": "https://transformasi.perpusnas.go.id/attachments/publikasi/M9Oulv2QtU_IMG.20260305.233626.png",
             "tanggal_input": "2026-03-05",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1198,10 +1394,10 @@
             "kecamatan_name": "Kuripan",
             "desa_name": "Kedawung",
             "tanggal": "2026-03-03",
-            "judul": "Publikasi Edukasi Literasi \u201c5 Langkah yang Bisa Dimulai Hari Ini\u201d oleh Perpustakaan Desa Kedawung",
+            "judul": "Publikasi Edukasi Literasi “5 Langkah yang Bisa Dimulai Hari Ini” oleh Perpustakaan Desa Kedawung",
             "jenis_publikasi": "Media Online",
             "nama_media": "@perpusdeskedawung",
-            "link": "https:\/\/www.instagram.com\/p\/DVaK4ubAXck\/?igsh=bGt2ZDlxMGlsNTQ=",
+            "link": "https://www.instagram.com/p/DVaK4ubAXck/?igsh=bGt2ZDlxMGlsNTQ=",
             "tanggal_input": "2026-03-03",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1215,7 +1411,7 @@
             "judul": "Kegitan Posyandu Balita Desa Sumberlele Di lingkungan Perpusdes",
             "jenis_publikasi": "Media Online",
             "nama_media": "FACE BOOK",
-            "link": "https:\/\/www.facebook.com\/100093544553504\/posts\/pfbid028fSqYNpirbL892aKLmGxZwHhhehtqgJ2Q1vNMmkyjVjYuDZjJxjxCXwy6K4fFDz4l\/",
+            "link": "https://www.facebook.com/100093544553504/posts/pfbid028fSqYNpirbL892aKLmGxZwHhhehtqgJ2Q1vNMmkyjVjYuDZjJxjxCXwy6K4fFDz4l/",
             "tanggal_input": "2026-03-03",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1229,7 +1425,7 @@
             "judul": "Kegitan Posyandu Balita Desa Sumberlele Di lingkungan Perpusdes",
             "jenis_publikasi": "Media Online",
             "nama_media": "INSTAGRAM",
-            "link": "https:\/\/www.instagram.com\/p\/DVX6Pfejz83MFHjO1N69ITIrNrxMURLFlP5DEU0\/?igsh=cTB6cWZwdXB4dmE3",
+            "link": "https://www.instagram.com/p/DVX6Pfejz83MFHjO1N69ITIrNrxMURLFlP5DEU0/?igsh=cTB6cWZwdXB4dmE3",
             "tanggal_input": "2026-03-03",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1271,7 +1467,7 @@
             "judul": "KUNJUNGAN OLEH BU YUYUN SELAKU ANGGOTA KECAMATAN UNTUK PENYULUHAN MASALAH REMAJA",
             "jenis_publikasi": "Media Online",
             "nama_media": "Facebook",
-            "link": "https:\/\/web.facebook.com\/share\/p\/1BHsGLRpke\/",
+            "link": "https://web.facebook.com/share/p/1BHsGLRpke/",
             "tanggal_input": "2026-02-26",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1285,7 +1481,7 @@
             "judul": "KEGIATAN MENYORTIR BUKU DAN MENYAMPUL",
             "jenis_publikasi": "Media Online",
             "nama_media": "FACEBOOK",
-            "link": "https:\/\/web.facebook.com\/share\/p\/1ER6qt8eo8\/",
+            "link": "https://web.facebook.com/share/p/1ER6qt8eo8/",
             "tanggal_input": "2026-02-26",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1299,7 +1495,7 @@
             "judul": "kunjungan perpus dari PAUD SUMBER CERIA",
             "jenis_publikasi": "Media Online",
             "nama_media": "facebook",
-            "link": "https:\/\/web.facebook.com\/share\/p\/18LbtEdVA4\/",
+            "link": "https://web.facebook.com/share/p/18LbtEdVA4/",
             "tanggal_input": "2026-02-26",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1313,7 +1509,7 @@
             "judul": "Kunjungan ke PAUD untuk mensosialisasikan buku bantuan perpustakaan dan APE",
             "jenis_publikasi": "Media Online",
             "nama_media": "facebook",
-            "link": "https:\/\/web.facebook.com\/share\/p\/1EyJnEWtbm\/",
+            "link": "https://web.facebook.com/share/p/1EyJnEWtbm/",
             "tanggal_input": "2026-02-26",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1327,7 +1523,7 @@
             "judul": "Sosialisasi masalah Input Data Kunjungan Rumah Oleh Kader",
             "jenis_publikasi": "Media Online",
             "nama_media": "facebook",
-            "link": "https:\/\/web.facebook.com\/share\/p\/1BJsnDmvT8\/",
+            "link": "https://web.facebook.com/share/p/1BJsnDmvT8/",
             "tanggal_input": "2026-02-26",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1341,7 +1537,7 @@
             "judul": "pembagian parsel oleh PT.JAWA POWER",
             "jenis_publikasi": "Media Online",
             "nama_media": "FACEBOOK",
-            "link": "https:\/\/web.facebook.com\/share\/p\/1b9vYhwx5c\/",
+            "link": "https://web.facebook.com/share/p/1b9vYhwx5c/",
             "tanggal_input": "2026-02-26",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1355,7 +1551,7 @@
             "judul": "Wisuda SOUTH Sekolah Orang Tua Hebat",
             "jenis_publikasi": "Media Online",
             "nama_media": "Facebook",
-            "link": "https:\/\/web.facebook.com\/share\/v\/18F3hrKqCC\/",
+            "link": "https://web.facebook.com/share/v/18F3hrKqCC/",
             "tanggal_input": "2026-02-26",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1453,7 +1649,7 @@
             "judul": "gerakan literasi masyarakat melalui perpustakaan desa",
             "jenis_publikasi": "Media Online",
             "nama_media": "instagram",
-            "link": "https:\/\/www.instagram.com\/p\/DU4_iPwknuz\/?img_index=2&amp;igsh=MTVhanFuNnF1cGtzeg%3D%3D",
+            "link": "https://www.instagram.com/p/DU4_iPwknuz/?img_index=2&amp;igsh=MTVhanFuNnF1cGtzeg%3D%3D",
             "tanggal_input": "2026-02-21",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1467,7 +1663,7 @@
             "judul": "Alhamdulillah",
             "jenis_publikasi": "Media Online",
             "nama_media": "Tiktok",
-            "link": "https:\/\/vt.tiktok.com\/ZSmfUsEES\/",
+            "link": "https://vt.tiktok.com/ZSmfUsEES/",
             "tanggal_input": "2026-02-19",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1481,7 +1677,7 @@
             "judul": "PerpusdesBago",
             "jenis_publikasi": "Media Online",
             "nama_media": "Tiktok",
-            "link": "https:\/\/vt.tiktok.com\/ZSmfDkrdN\/",
+            "link": "https://vt.tiktok.com/ZSmfDkrdN/",
             "tanggal_input": "2026-02-19",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1593,7 +1789,7 @@
             "judul": "Persiapan Bibit untuk Penanaman Pohon",
             "jenis_publikasi": "Media Online",
             "nama_media": "Instagram",
-            "link": "https:\/\/www.instagram.com\/reel\/DTK6XDtE59j\/",
+            "link": "https://www.instagram.com/reel/DTK6XDtE59j/",
             "tanggal_input": "2026-02-19",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1635,7 +1831,7 @@
             "judul": "Menumbuhkan Literasi dan Menanam Harapan Lewat Perpustakaan dan Aksi Hijau",
             "jenis_publikasi": "Media Online",
             "nama_media": "Instagram",
-            "link": "https:\/\/www.instagram.com\/reel\/DTWvJYfkyOm\/",
+            "link": "https://www.instagram.com/reel/DTWvJYfkyOm/",
             "tanggal_input": "2026-02-19",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1649,7 +1845,7 @@
             "judul": "ibu ibu PKK Desa Pendil berkunjung ke Perpusdes Iqro Pendil sembari pertemuan juga mengisi waktu luang dengan membaca buku.",
             "jenis_publikasi": "Media Online",
             "nama_media": "Facebook",
-            "link": "https:\/\/www.facebook.com\/share\/p\/1AfhaKbBDa\/",
+            "link": "https://www.facebook.com/share/p/1AfhaKbBDa/",
             "tanggal_input": "2026-02-18",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1705,7 +1901,7 @@
             "judul": "Pojok Baca Posyandu 6 SPM Naungan Perpustakaan Desa Iqro' Pendil di TK ABA 2 Pendil",
             "jenis_publikasi": "Media Online",
             "nama_media": "Facebook",
-            "link": "https:\/\/www.facebook.com\/share\/p\/1Dgv3rfB12\/",
+            "link": "https://www.facebook.com/share/p/1Dgv3rfB12/",
             "tanggal_input": "2026-02-18",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1733,7 +1929,7 @@
             "judul": "Kegiatan membaca buku wali murid RA dan PAUD Islamiyah Sentul sambil menunggu anak-anaknya sekolah",
             "jenis_publikasi": "Media Online",
             "nama_media": "Instagram ",
-            "link": "https:\/\/www.instagram.com\/reel\/DUqLMG6EdMs\/?igsh=NnN2eTZndTR2Y25x",
+            "link": "https://www.instagram.com/reel/DUqLMG6EdMs/?igsh=NnN2eTZndTR2Y25x",
             "tanggal_input": "2026-02-12",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1747,7 +1943,7 @@
             "judul": "Kegiatan membaca buku wali murid RA dan PAUD Islamiyah Sentul sambil menunggu anak-anaknya sekolah",
             "jenis_publikasi": "Media Online",
             "nama_media": "Facebook ",
-            "link": "https:\/\/www.facebook.com\/share\/r\/1Ha5T1sFKF\/",
+            "link": "https://www.facebook.com/share/r/1Ha5T1sFKF/",
             "tanggal_input": "2026-02-12",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1761,7 +1957,7 @@
             "judul": "Kegiatan membaca buku wali murid RA dan PAUD Islamiyah Sentul sambil menunggu anak-anaknya sekolah",
             "jenis_publikasi": "Media Online",
             "nama_media": "Tiktok",
-            "link": "https:\/\/vt.tiktok.com\/ZSmYNucfC\/",
+            "link": "https://vt.tiktok.com/ZSmYNucfC/",
             "tanggal_input": "2026-02-12",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1775,7 +1971,7 @@
             "judul": "Kegiatan posyandu ILP Dusun Janti Desa Sentul Kecamatan Gading Kabupaten Probolinggo bersama Kader Posyandu dan Pengurus Perpusdes Sentul Beraksi",
             "jenis_publikasi": "Media Online",
             "nama_media": "Facebook",
-            "link": "https:\/\/www.facebook.com\/share\/r\/1AoXysJRAR\/",
+            "link": "https://www.facebook.com/share/r/1AoXysJRAR/",
             "tanggal_input": "2026-02-11",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1789,7 +1985,7 @@
             "judul": "Kegiatan posyandu ILP Dusun Janti Desa Sentul Kecamatan Gading Kabupaten Probolinggo bersama Kader Posyandu dan Pengurus Perpusdes Sentul Beraksi",
             "jenis_publikasi": "Media Online",
             "nama_media": "Instagram ",
-            "link": "https:\/\/www.instagram.com\/reel\/DUnqRGAkVpe\/?igsh=b2tybGVoNHh6YTEy",
+            "link": "https://www.instagram.com/reel/DUnqRGAkVpe/?igsh=b2tybGVoNHh6YTEy",
             "tanggal_input": "2026-02-11",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1803,7 +1999,7 @@
             "judul": "Kegiatan posyandu ILP Dusun Janti Desa Sentul Kecamatan Gading Kabupaten Probolinggo bersama Kader Posyandu dan Pengurus Perpusdes Sentul Beraksi",
             "jenis_publikasi": "Media Online",
             "nama_media": "Tiktok",
-            "link": "https:\/\/vt.tiktok.com\/ZSmLKnQFd\/",
+            "link": "https://vt.tiktok.com/ZSmLKnQFd/",
             "tanggal_input": "2026-02-11",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1817,7 +2013,7 @@
             "judul": "Ajak Masyarakat Gemar Membaca di HUTAKA, Dispersip Gandeng Probolinggo Book Party",
             "jenis_publikasi": "Media Online",
             "nama_media": "The DNA",
-            "link": "https:\/\/thedna.co.id\/ajak-masyarakat-gemar-membaca-di-hutaka-dispersip-gandeng-komunitas-book-party\/",
+            "link": "https://thedna.co.id/ajak-masyarakat-gemar-membaca-di-hutaka-dispersip-gandeng-komunitas-book-party/",
             "tanggal_input": "2026-02-09",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1831,7 +2027,7 @@
             "judul": "Dispersip Kabupaten Probolinggo Kampanyekan Gemar Membaca Di Hutan Kota Kraksaan",
             "jenis_publikasi": "Media Online",
             "nama_media": "Patroli Pos",
-            "link": "https:\/\/www.patrolipos.co.id\/2026\/02\/08\/dispersip-kabupaten-probolinggo-kampanyekan-gemar-membaca-di-hutan-kota-kraksaan\/",
+            "link": "https://www.patrolipos.co.id/2026/02/08/dispersip-kabupaten-probolinggo-kampanyekan-gemar-membaca-di-hutan-kota-kraksaan/",
             "tanggal_input": "2026-02-09",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1845,7 +2041,7 @@
             "judul": "Dispersip Probolinggo Kampanyekan Gemar Membaca Bersama Komunitas di Hutan Kota Kraksaan",
             "jenis_publikasi": "Media Online",
             "nama_media": "Bromo Ijen Bratapos",
-            "link": "https:\/\/bromoijen.bratapos.com\/read\/dispersip-probolinggo-kampanyekan-gemar-membaca-bersama-komunitas-di-hutan-kota-kraksaan#google_vignette",
+            "link": "https://bromoijen.bratapos.com/read/dispersip-probolinggo-kampanyekan-gemar-membaca-bersama-komunitas-di-hutan-kota-kraksaan#google_vignette",
             "tanggal_input": "2026-02-09",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1859,7 +2055,7 @@
             "judul": "Dispersip Kasbupaten Probolinggo Hidupkan Budaya Membaca di Ruang Publik",
             "jenis_publikasi": "Media Online",
             "nama_media": "Lensa Update",
-            "link": "https:\/\/www.lensa-update.com\/2026\/02\/dispersip-kasbupaten-probolinggo.html",
+            "link": "https://www.lensa-update.com/2026/02/dispersip-kasbupaten-probolinggo.html",
             "tanggal_input": "2026-02-09",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1873,7 +2069,7 @@
             "judul": "Dispersip Kabupaten Probolinggo Kampanyekan Gemar Membaca di Hutan Kota Kraksaan",
             "jenis_publikasi": "Media Online",
             "nama_media": "Website Pemkab Probolinggo",
-            "link": "https:\/\/probolinggokab.go.id\/dispersip-kabupaten-probolinggo-kampanyekan-gemar-membaca-di-hutan-kota-kraksaan\/",
+            "link": "https://probolinggokab.go.id/dispersip-kabupaten-probolinggo-kampanyekan-gemar-membaca-di-hutan-kota-kraksaan/",
             "tanggal_input": "2026-02-09",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1887,7 +2083,7 @@
             "judul": "Kegiatan Ibu-ibu mengajarkan anak-anaknya membaca buku di Perpustakaan Sentul Beraksi",
             "jenis_publikasi": "Media Online",
             "nama_media": "Instagram ",
-            "link": "https:\/\/www.instagram.com\/reel\/DUUuD8FEYC5\/?igsh=MXZvaWlhNDV1YTkyYw==",
+            "link": "https://www.instagram.com/reel/DUUuD8FEYC5/?igsh=MXZvaWlhNDV1YTkyYw==",
             "tanggal_input": "2026-02-04",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1901,7 +2097,7 @@
             "judul": "Kegiatan Ibu-ibu mengajarkan anak-anaknya membaca buku di Perpustakaan Sentul Beraksi",
             "jenis_publikasi": "Media Online",
             "nama_media": "Facebook",
-            "link": "https:\/\/www.facebook.com\/share\/r\/1KwbMRg1TJ\/",
+            "link": "https://www.facebook.com/share/r/1KwbMRg1TJ/",
             "tanggal_input": "2026-02-04",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1915,7 +2111,7 @@
             "judul": "Kegiatan Ibu-ibu mengajarkan anak-anaknya membaca buku di Perpustakaan Sentul Beraksi",
             "jenis_publikasi": "Media Online",
             "nama_media": "Tiktok",
-            "link": "https:\/\/vt.tiktok.com\/ZSatWPR5g\/",
+            "link": "https://vt.tiktok.com/ZSatWPR5g/",
             "tanggal_input": "2026-02-04",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1929,7 +2125,7 @@
             "judul": "Publikasi Workshop Robotik dan Coding",
             "jenis_publikasi": "Media Online",
             "nama_media": "Instagram Dispersip",
-            "link": "https:\/\/www.instagram.com\/p\/DUR1Yl7D_ux\/",
+            "link": "https://www.instagram.com/p/DUR1Yl7D_ux/",
             "tanggal_input": "2026-02-04",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1943,7 +2139,7 @@
             "judul": "Literasi Digital Sejak Dini Lewat Workshop Robotik",
             "jenis_publikasi": "Media Online",
             "nama_media": "The DNA",
-            "link": "https:\/\/thedna.co.id\/literasi-digital-sejak-dini-lewat-workshop-robotik\/",
+            "link": "https://thedna.co.id/literasi-digital-sejak-dini-lewat-workshop-robotik/",
             "tanggal_input": "2026-02-02",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1957,7 +2153,7 @@
             "judul": "Dispersip Kabupaten Probolinggo Dorong Literasi Teknologi Lewat Workshop Coding dan Robotik",
             "jenis_publikasi": "Media Online",
             "nama_media": "Investigasi88",
-            "link": "https:\/\/investigasi88.com\/dispersip-kabupaten-probolinggo-dorong-literasi-teknologi-lewat-workshop-coding-dan-robotik",
+            "link": "https://investigasi88.com/dispersip-kabupaten-probolinggo-dorong-literasi-teknologi-lewat-workshop-coding-dan-robotik",
             "tanggal_input": "2026-02-02",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1971,7 +2167,7 @@
             "judul": "Dispersip Kabupaten Probolinggo Dorong Literasi Teknologi Lewat Workshop Coding dan Robotik",
             "jenis_publikasi": "Media Online",
             "nama_media": "Patroli Hukum",
-            "link": "https:\/\/patrolihukum.net\/dispersip-kabupaten-probolinggo-dorong-literasi-teknologi-lewat-workshop-coding-dan-robotik",
+            "link": "https://patrolihukum.net/dispersip-kabupaten-probolinggo-dorong-literasi-teknologi-lewat-workshop-coding-dan-robotik",
             "tanggal_input": "2026-02-02",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1985,7 +2181,7 @@
             "judul": "Dorong Literasi Digital Sejak Dini, Dispersip Probolinggo Kenalkan Coding dan Robotik",
             "jenis_publikasi": "Media Online",
             "nama_media": "Radar Patroli",
-            "link": "https:\/\/radarpatroli.com\/2026\/01\/31\/dorong-literasi-digital-sejak-dini-dispersip-probolinggo-kenalkan-coding-dan-robotik\/",
+            "link": "https://radarpatroli.com/2026/01/31/dorong-literasi-digital-sejak-dini-dispersip-probolinggo-kenalkan-coding-dan-robotik/",
             "tanggal_input": "2026-02-02",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -1999,7 +2195,7 @@
             "judul": "Dispersip Kabupaten Probolinggo Ajak Pelajar SD Kenal Coding dan Robotik di Era Digital",
             "jenis_publikasi": "Media Online",
             "nama_media": "Lensa Update",
-            "link": "https:\/\/www.lensa-update.com\/2026\/01\/dispersip-kabupaten-probolinggo-ajak.html",
+            "link": "https://www.lensa-update.com/2026/01/dispersip-kabupaten-probolinggo-ajak.html",
             "tanggal_input": "2026-02-02",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -2013,7 +2209,7 @@
             "judul": "Dispersip Kabupaten Probolinggo Dorong Literasi Teknologi Lewat Workshop Coding dan Robotik",
             "jenis_publikasi": "Media Online",
             "nama_media": "Website Pemkab Probolinggo",
-            "link": "https:\/\/probolinggokab.go.id\/dispersip-kabupaten-probolinggo-dorong-literasi-teknologi-lewat-workshop-coding-dan-robotik\/",
+            "link": "https://probolinggokab.go.id/dispersip-kabupaten-probolinggo-dorong-literasi-teknologi-lewat-workshop-coding-dan-robotik/",
             "tanggal_input": "2026-02-02",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -2027,7 +2223,7 @@
             "judul": "Kegiatan Posyandu Balita dan Lansia Desa Sumberlele",
             "jenis_publikasi": "Media Online",
             "nama_media": "Facebook",
-            "link": "https:\/\/www.facebook.com\/100093544553504\/posts\/pfbid02gmTbnHGamuYksTfLnrp4Ww3tQAL6v3sXexidQHyVfaqhBPbU5iTQj4FnRTDmaATzl\/",
+            "link": "https://www.facebook.com/100093544553504/posts/pfbid02gmTbnHGamuYksTfLnrp4Ww3tQAL6v3sXexidQHyVfaqhBPbU5iTQj4FnRTDmaATzl/",
             "tanggal_input": "2026-01-28",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -2041,7 +2237,7 @@
             "judul": "Kegiatan Posyandu Balita dan Lansia Desa Sumberlele",
             "jenis_publikasi": "Media Online",
             "nama_media": "INSTAGRAM",
-            "link": "https:\/\/www.instagram.com\/p\/DUCcpqoDy75kSAyIJoDRsgo109_WuhngizLTDc0\/?igsh=enJ0M240MG16OXYz",
+            "link": "https://www.instagram.com/p/DUCcpqoDy75kSAyIJoDRsgo109_WuhngizLTDc0/?igsh=enJ0M240MG16OXYz",
             "tanggal_input": "2026-01-28",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -2055,7 +2251,7 @@
             "judul": "Dispersip Kabupaten Probolinggo Buka Kelas Robotik Anak",
             "jenis_publikasi": "Media Online",
             "nama_media": "The DNA.co.id",
-            "link": "https:\/\/thedna.co.id\/dispersip-kabupaten-probolinggo-buka-kelas-robotik-anak\/",
+            "link": "https://thedna.co.id/dispersip-kabupaten-probolinggo-buka-kelas-robotik-anak/",
             "tanggal_input": "2026-01-21",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -2069,7 +2265,7 @@
             "judul": "Kegiatan membaca buku Ibu-ibu wali murid dari PAUD Permata Bangsa dan TK Tunas Bangsa bersama Ketua Tim Penggerak PKK Desa Sentul Kecamatan Gading di Perpusdes",
             "jenis_publikasi": "Media Online",
             "nama_media": "Instagram ",
-            "link": "https:\/\/www.instagram.com\/reel\/DTsarySEeq-\/?igsh=MXZienMzbnNzdDlkNw==",
+            "link": "https://www.instagram.com/reel/DTsarySEeq-/?igsh=MXZienMzbnNzdDlkNw==",
             "tanggal_input": "2026-01-19",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -2083,7 +2279,7 @@
             "judul": "Kegiatan membaca buku Ibu-ibu wali murid dari PAUD Permata Bangsa dan TK Tunas Bangsa bersama Ketua Tim Penggerak PKK Desa Sentul Kecamatan Gading di Perpusdes",
             "jenis_publikasi": "Media Online",
             "nama_media": "Facebook ",
-            "link": "https:\/\/www.facebook.com\/share\/r\/1MYTvnjJWc\/",
+            "link": "https://www.facebook.com/share/r/1MYTvnjJWc/",
             "tanggal_input": "2026-01-19",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -2097,7 +2293,7 @@
             "judul": "Kegiatan membaca buku Ibu-ibu wali murid dari PAUD Permata Bangsa dan TK Tunas Bangsa bersama Ketua Tim Penggerak PKK Desa Sentul Kecamatan Gading di Perpusdes",
             "jenis_publikasi": "Media Online",
             "nama_media": "Tiktok ",
-            "link": "https:\/\/vt.tiktok.com\/ZSaNeG7eX\/",
+            "link": "https://vt.tiktok.com/ZSaNeG7eX/",
             "tanggal_input": "2026-01-19",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -2111,7 +2307,7 @@
             "judul": "Pojok Baca Kraksaan Sediakan Ribuan Buku Digital Lewat Scan Barcode",
             "jenis_publikasi": "Media Online",
             "nama_media": "The DNA.co.id",
-            "link": "https:\/\/thedna.co.id\/pojok-baca-kraksaan-sediakan-ribuan-buku-digital-lewat-scan-barcode\/",
+            "link": "https://thedna.co.id/pojok-baca-kraksaan-sediakan-ribuan-buku-digital-lewat-scan-barcode/",
             "tanggal_input": "2026-01-15",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -2125,7 +2321,7 @@
             "judul": "Membaca dan Mendongeng PAUD Permata Bangsa dan TK Tunas Bangsa di Perpustakaan Desa Sentul Beraksi",
             "jenis_publikasi": "Media Online",
             "nama_media": "Facebook ",
-            "link": "https:\/\/www.facebook.com\/share\/r\/16gooNVtv9\/",
+            "link": "https://www.facebook.com/share/r/16gooNVtv9/",
             "tanggal_input": "2026-01-11",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -2139,7 +2335,7 @@
             "judul": "Membaca dan Mendongeng PAUD Permata Bangsa dan TK Tunas Bangsa di Perpustakaan Desa Sentul Beraksi",
             "jenis_publikasi": "Media Online",
             "nama_media": "Instagram ",
-            "link": "https:\/\/www.instagram.com\/reel\/DTW3YiMEQMC\/?igsh=MXFyZ3F0NmtlZ3Z5NQ==",
+            "link": "https://www.instagram.com/reel/DTW3YiMEQMC/?igsh=MXFyZ3F0NmtlZ3Z5NQ==",
             "tanggal_input": "2026-01-11",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -2153,7 +2349,7 @@
             "judul": "Membaca dan Mendongeng PAUD Permata Bangsa dan TK Tunas Bangsa di Perpustakaan Desa Sentul Beraksi",
             "jenis_publikasi": "Media Online",
             "nama_media": "Tiktok",
-            "link": "https:\/\/vt.tiktok.com\/ZS5g3XxRo\/",
+            "link": "https://vt.tiktok.com/ZS5g3XxRo/",
             "tanggal_input": "2026-01-11",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -2167,7 +2363,7 @@
             "judul": "Kunjungan Siswa-siswi SDN BATUR II Ke Perpusdes Sentul Beraksi",
             "jenis_publikasi": "Media Online",
             "nama_media": "Facebook ",
-            "link": "https:\/\/www.facebook.com\/share\/r\/1BsYbUppD3\/",
+            "link": "https://www.facebook.com/share/r/1BsYbUppD3/",
             "tanggal_input": "2026-01-10",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -2181,7 +2377,7 @@
             "judul": "Kunjungan Siswa-siswi SDN BATUR II Ke Perpusdes Sentul Beraksi",
             "jenis_publikasi": "Media Online",
             "nama_media": "Instagram ",
-            "link": "https:\/\/www.instagram.com\/reel\/DTVK6v7EZdX\/?igsh=NWxkbXJuYWZ3YWgw",
+            "link": "https://www.instagram.com/reel/DTVK6v7EZdX/?igsh=NWxkbXJuYWZ3YWgw",
             "tanggal_input": "2026-01-10",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -2195,7 +2391,7 @@
             "judul": "Kunjungan Siswa-siswi SDN BATUR II Ke Perpusdes Sentul Beraksi",
             "jenis_publikasi": "Media Online",
             "nama_media": "Tiktok",
-            "link": "https:\/\/vt.tiktok.com\/ZS5bjPytc\/",
+            "link": "https://vt.tiktok.com/ZS5bjPytc/",
             "tanggal_input": "2026-01-10",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -2209,7 +2405,7 @@
             "judul": "Kunjungan Siswa-siswi SDN BATUR II Ke Perpusdes Sentul Beraksi",
             "jenis_publikasi": "Media Online",
             "nama_media": "Tiktok ",
-            "link": "https:\/\/vt.tiktok.com\/ZS5QcRhKe\/",
+            "link": "https://vt.tiktok.com/ZS5QcRhKe/",
             "tanggal_input": "2026-01-08",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -2223,7 +2419,7 @@
             "judul": "Kunjungan Siswa-siswi SDN BATUR II Ke Perpusdes Sentul Beraksi",
             "jenis_publikasi": "Media Online",
             "nama_media": "Facebook ",
-            "link": "https:\/\/www.facebook.com\/share\/r\/1ARegJcoWK\/",
+            "link": "https://www.facebook.com/share/r/1ARegJcoWK/",
             "tanggal_input": "2026-01-08",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -2237,7 +2433,7 @@
             "judul": "Kunjungan Siswa-siswi SDN BATUR II Ke Perpusdes Sentul Beraksi",
             "jenis_publikasi": "Media Online",
             "nama_media": "Instagram ",
-            "link": "https:\/\/www.instagram.com\/reel\/DTPz9kNEZe3\/?igsh=MWh4Zmo0cWZzcHIxZw==",
+            "link": "https://www.instagram.com/reel/DTPz9kNEZe3/?igsh=MWh4Zmo0cWZzcHIxZw==",
             "tanggal_input": "2026-01-08",
             "is_verified": "Sudah Diverifikasi"
         }

@@ -25,9 +25,9 @@
                 const skor = parseFloat(item.skor) || 0;
 
                 // DISESUAIKAN: Menggunakan standard rentang kategori baru
-                if (skor >= 76) kategori = "Sangat Baik";
-                else if (skor >= 26) kategori = "Cukup";
-                else kategori = "Kurang";
+                if (skor > 75) kategori = "Tinggi";
+                else if (skor > 25) kategori = "Sedang";
+                else kategori = "Rendah";
 
                 combinedData[key] = {
                     nama_asli: item.nama_perpustakaan,
@@ -142,11 +142,11 @@
 
                             // DISESUAIKAN: Class badge disesuaikan dengan kategori baru
                             let badgeClass = "";
-                            if (item.kategori === "Sangat Baik")
+                            if (item.kategori === "Tinggi")
                                 badgeClass = "bg-emerald-100 text-emerald-700 border-emerald-200";
-                            else if (item.kategori === "Cukup")
+                            else if (item.kategori === "Sedang")
                                 badgeClass = "bg-amber-100 text-amber-700 border-amber-200";
-                            else if (item.kategori === "Kurang")
+                            else if (item.kategori === "Rendah")
                                 badgeClass = "bg-red-100 text-red-700 border-red-200";
                             else badgeClass = "bg-slate-100 text-slate-700 border-slate-200";
 
@@ -191,11 +191,11 @@
                     const rows = dataToRender.map((item) => {
                         // DISESUAIKAN: Class badge internal DataTables re-draw
                         let badgeClass = "";
-                        if (item.kategori === "Sangat Baik")
+                        if (item.kategori === "Tinggi")
                             badgeClass = "bg-emerald-100 text-emerald-700 border-emerald-200";
-                        else if (item.kategori === "Cukup")
+                        else if (item.kategori === "Sedang")
                             badgeClass = "bg-amber-100 text-amber-700 border-amber-200";
-                        else if (item.kategori === "Kurang")
+                        else if (item.kategori === "Rendah")
                             badgeClass = "bg-red-100 text-red-700 border-red-200";
                         else badgeClass = "bg-slate-100 text-slate-700 border-slate-200";
 

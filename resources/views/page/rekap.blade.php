@@ -33,9 +33,9 @@
                         <label class="mb-1.5 block text-xs font-semibold text-slate-500 uppercase tracking-wider">Kategori KPI</label>
                         <select id="filter-kpi" class="w-full rounded-xl border-slate-200 bg-slate-50 px-3 py-2.5 text-sm font-medium text-slate-700 outline-none focus:border-theme-green focus:ring-1 focus:ring-theme-green">
                             <option value="all">Semua Kategori</option>
-                            <option value="Sangat Baik">Baik (76-100)</option>
-                            <option value="Cukup">Cukup (26-75)</option>
-                            <option value="Kurang">Kurang (≤25)</option>
+                            <option value="Tinggi">Tinggi (>75)</option>
+                            <option value="Sedang">Sedang (26-75)</option>
+                            <option value="Rendah">Rendah (≤25)</option>
                         </select>
                     </div>
                     <div class="w-full sm:w-1/3">
@@ -122,8 +122,8 @@
         @include('layout.footer')
     </div>
 
-    @include('js.api')
-    @include('js.rekap')
+    @include('js.api-js')
+    @include('js.rekap-js')
 </body>
 
 </html>
