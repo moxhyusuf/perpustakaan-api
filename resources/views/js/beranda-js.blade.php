@@ -55,7 +55,7 @@
                 ApiService.getPengunjung(),
                 ApiService.getPelibatan(),
                 ApiService.getPublikasi(),
-                ApiService.getPeningkatan(),
+                ApiService.getFasilitas(),
                 ApiService.getReplikasi(),
                 ApiService.getKPI(),
             ]);

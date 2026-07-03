@@ -324,9 +324,7 @@
 
     .dt-paging-button:hover:not(.disabled):not(.current) {
         background: #f1f5f9 !important;
-        /* bg-slate-100 */
         color: #0f172a !important;
-        /* text-slate-900 */
         border-color: transparent !important;
     }
 
@@ -340,7 +338,6 @@
 
     .dt-paging-button.disabled {
         color: #cbd5e1 !important;
-        /* text-slate-300 */
     }
 
     /* Info text */
@@ -357,5 +354,59 @@
     table.dataTable thead td.dt-orderable-asc,
     table.dataTable thead td.dt-orderable-desc {
         padding-right: 2rem !important;
+    }
+
+    .hero-title {
+        margin-bottom: 20px;
+    }
+
+    .hero-tagline {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        margin-top: 2px;
+        margin-bottom: 24px;
+
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 17px;
+        font-style: italic;
+        font-weight: 600;
+
+        color: #4f6b54;
+        letter-spacing: .3px;
+    }
+
+    .hero-tagline i {
+        color: #6d8f73;
+        font-size: 17px;
+    }
+
+    .hero-tagline strong {
+        color: #35553c;
+        font-weight: 700;
+    }
+
+    .metric-card {
+        height: 165px;
+    }
+
+    .metric-card>div {
+        height: 100%;
+    }
+
+    .metric-card .min-w-0 {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .metric-card .min-w-0 p:first-child {
+        min-height: 40px;
+        line-height: 1.35;
+    }
+
+    .metric-card .min-w-0 p:last-child {
+        margin-top: auto;
     }
 </style>

@@ -3,39 +3,6 @@
     "data": [
         {
             "periode": "Jan 2026",
-            "perpus_nama": "Perpustakaan Desa Jorongan",
-            "provinsi_name": "Jawa Timur",
-            "kabupaten_name": "Kab. Probolinggo",
-            "kecamatan_name": "Leces",
-            "desa_name": "Jorongan",
-            "pengunjung_laki": 0,
-            "pengunjung_perempuan": 1,
-            "total_pengunjung": 1
-        },
-        {
-            "periode": "Jan 2026",
-            "perpus_nama": "Perpustakaan Pondokkelor Pintar",
-            "provinsi_name": "Jawa Timur",
-            "kabupaten_name": "Kab. Probolinggo",
-            "kecamatan_name": "Paiton",
-            "desa_name": "Podokkelor",
-            "pengunjung_laki": 42,
-            "pengunjung_perempuan": 46,
-            "total_pengunjung": 88
-        },
-        {
-            "periode": "Jan 2026",
-            "perpus_nama": "Perpustakaan Sumberlele",
-            "provinsi_name": "Jawa Timur",
-            "kabupaten_name": "Kab. Probolinggo",
-            "kecamatan_name": "Kraksaan",
-            "desa_name": "Sumberlele",
-            "pengunjung_laki": 5,
-            "pengunjung_perempuan": 3,
-            "total_pengunjung": 8
-        },
-        {
-            "periode": "Jan 2026",
             "perpus_nama": "Perpustakaan Mentari Pustaka",
             "provinsi_name": "Jawa Timur",
             "kabupaten_name": "Kab. Probolinggo",
@@ -145,26 +112,37 @@
             "total_pengunjung": 120
         },
         {
-            "periode": "Feb 2026",
-            "perpus_nama": "Perpustakaan Desa Kregenan Kecamatan Kraksaan",
-            "provinsi_name": "Jawa Timur",
-            "kabupaten_name": "Kab. Probolinggo",
-            "kecamatan_name": "Kraksaan",
-            "desa_name": "Kregenan",
-            "pengunjung_laki": 1,
-            "pengunjung_perempuan": 0,
-            "total_pengunjung": 1
-        },
-        {
-            "periode": "Feb 2026",
+            "periode": "Jan 2026",
             "perpus_nama": "Perpustakaan Pondokkelor Pintar",
             "provinsi_name": "Jawa Timur",
             "kabupaten_name": "Kab. Probolinggo",
             "kecamatan_name": "Paiton",
             "desa_name": "Podokkelor",
-            "pengunjung_laki": 35,
-            "pengunjung_perempuan": 28,
-            "total_pengunjung": 63
+            "pengunjung_laki": 42,
+            "pengunjung_perempuan": 46,
+            "total_pengunjung": 88
+        },
+        {
+            "periode": "Jan 2026",
+            "perpus_nama": "Perpustakaan Desa Jorongan",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": "Leces",
+            "desa_name": "Jorongan",
+            "pengunjung_laki": 0,
+            "pengunjung_perempuan": 1,
+            "total_pengunjung": 1
+        },
+        {
+            "periode": "Jan 2026",
+            "perpus_nama": "Perpustakaan Sumberlele",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": "Kraksaan",
+            "desa_name": "Sumberlele",
+            "pengunjung_laki": 5,
+            "pengunjung_perempuan": 3,
+            "total_pengunjung": 8
         },
         {
             "periode": "Feb 2026",
@@ -332,15 +310,26 @@
             "total_pengunjung": 1
         },
         {
-            "periode": "Mar 2026",
-            "perpus_nama": "Perpustakaan Desa Pohsangit Tengah",
+            "periode": "Feb 2026",
+            "perpus_nama": "Perpustakaan Desa Kregenan Kecamatan Kraksaan",
             "provinsi_name": "Jawa Timur",
             "kabupaten_name": "Kab. Probolinggo",
-            "kecamatan_name": "Wonomerto",
-            "desa_name": "Pohsangit Tengah",
-            "pengunjung_laki": 45,
-            "pengunjung_perempuan": 64,
-            "total_pengunjung": 109
+            "kecamatan_name": "Kraksaan",
+            "desa_name": "Kregenan",
+            "pengunjung_laki": 1,
+            "pengunjung_perempuan": 0,
+            "total_pengunjung": 1
+        },
+        {
+            "periode": "Feb 2026",
+            "perpus_nama": "Perpustakaan Pondokkelor Pintar",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": "Paiton",
+            "desa_name": "Podokkelor",
+            "pengunjung_laki": 35,
+            "pengunjung_perempuan": 28,
+            "total_pengunjung": 63
         },
         {
             "periode": "Mar 2026",
@@ -486,26 +475,15 @@
             "total_pengunjung": 45
         },
         {
-            "periode": "Apr 2026",
+            "periode": "Mar 2026",
             "perpus_nama": "Perpustakaan Desa Pohsangit Tengah",
             "provinsi_name": "Jawa Timur",
             "kabupaten_name": "Kab. Probolinggo",
             "kecamatan_name": "Wonomerto",
             "desa_name": "Pohsangit Tengah",
-            "pengunjung_laki": 34,
-            "pengunjung_perempuan": 67,
-            "total_pengunjung": 101
-        },
-        {
-            "periode": "Apr 2026",
-            "perpus_nama": "Perpustakaan Desa Sebaung",
-            "provinsi_name": "Jawa Timur",
-            "kabupaten_name": "Kab. Probolinggo",
-            "kecamatan_name": "Gending",
-            "desa_name": "Sebaung",
-            "pengunjung_laki": 10,
-            "pengunjung_perempuan": 20,
-            "total_pengunjung": 30
+            "pengunjung_laki": 45,
+            "pengunjung_perempuan": 64,
+            "total_pengunjung": 109
         },
         {
             "periode": "Apr 2026",
@@ -531,17 +509,6 @@
         },
         {
             "periode": "Apr 2026",
-            "perpus_nama": "Perpustakaan Jendela Dunia",
-            "provinsi_name": "Jawa Timur",
-            "kabupaten_name": "Kab. Probolinggo",
-            "kecamatan_name": "Tegalsiwalan",
-            "desa_name": "Tegalsiwalan",
-            "pengunjung_laki": 20,
-            "pengunjung_perempuan": 38,
-            "total_pengunjung": 58
-        },
-        {
-            "periode": "Apr 2026",
             "perpus_nama": "Perpustakaan Cendekia Kamalkuning",
             "provinsi_name": "Jawa Timur",
             "kabupaten_name": "Kab. Probolinggo",
@@ -550,6 +517,17 @@
             "pengunjung_laki": 10,
             "pengunjung_perempuan": 8,
             "total_pengunjung": 18
+        },
+        {
+            "periode": "Apr 2026",
+            "perpus_nama": "Perpustakaan Jendela Dunia",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": "Tegalsiwalan",
+            "desa_name": "Tegalsiwalan",
+            "pengunjung_laki": 20,
+            "pengunjung_perempuan": 38,
+            "total_pengunjung": 58
         },
         {
             "periode": "Apr 2026",
@@ -618,26 +596,26 @@
             "total_pengunjung": 734
         },
         {
-            "periode": "May 2026",
-            "perpus_nama": "Perpustakaan Desa Jorongan",
+            "periode": "Apr 2026",
+            "perpus_nama": "Perpustakaan Desa Pohsangit Tengah",
             "provinsi_name": "Jawa Timur",
             "kabupaten_name": "Kab. Probolinggo",
-            "kecamatan_name": "Leces",
-            "desa_name": "Jorongan",
-            "pengunjung_laki": 0,
-            "pengunjung_perempuan": 1,
-            "total_pengunjung": 1
+            "kecamatan_name": "Wonomerto",
+            "desa_name": "Pohsangit Tengah",
+            "pengunjung_laki": 34,
+            "pengunjung_perempuan": 67,
+            "total_pengunjung": 101
         },
         {
-            "periode": "May 2026",
+            "periode": "Apr 2026",
             "perpus_nama": "Perpustakaan Desa Sebaung",
             "provinsi_name": "Jawa Timur",
             "kabupaten_name": "Kab. Probolinggo",
             "kecamatan_name": "Gending",
             "desa_name": "Sebaung",
-            "pengunjung_laki": 20,
-            "pengunjung_perempuan": 25,
-            "total_pengunjung": 45
+            "pengunjung_laki": 10,
+            "pengunjung_perempuan": 20,
+            "total_pengunjung": 30
         },
         {
             "periode": "May 2026",
@@ -715,6 +693,28 @@
             "pengunjung_laki": 12,
             "pengunjung_perempuan": 45,
             "total_pengunjung": 57
+        },
+        {
+            "periode": "May 2026",
+            "perpus_nama": "Perpustakaan Desa Jorongan",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": "Leces",
+            "desa_name": "Jorongan",
+            "pengunjung_laki": 0,
+            "pengunjung_perempuan": 1,
+            "total_pengunjung": 1
+        },
+        {
+            "periode": "May 2026",
+            "perpus_nama": "Perpustakaan Desa Sebaung",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": "Gending",
+            "desa_name": "Sebaung",
+            "pengunjung_laki": 20,
+            "pengunjung_perempuan": 25,
+            "total_pengunjung": 45
         },
         {
             "periode": "Jun 2026",

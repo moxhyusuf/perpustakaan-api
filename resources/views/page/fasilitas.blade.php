@@ -2,7 +2,7 @@
 <html lang="id">
 
 <head>
-    @include('layout.head', ['title' => 'Data Pengunjung'])
+    @include('layout.head', ['title' => 'Fasilitas'])
 </head>
 
 <body class="dashboard-shell text-slate-800">

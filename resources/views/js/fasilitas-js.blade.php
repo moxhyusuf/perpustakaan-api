@@ -1,15 +1,15 @@
 <script>
     document.addEventListener("DOMContentLoaded", () => {
-        initPeningkatan();
+        initFasilitas();
     });
 
     let chartTrenInstance = null;
     let chartKoleksiInstance = null;
     let dataTableInstance = null;
 
-    async function initPeningkatan() {
+    async function initFasilitas() {
         try {
-            const data = await window.ApiService.getPeningkatan();
+            const data = await window.ApiService.getFasilitas();
 
             if (!data || data.length === 0) {
                 renderEmptyState();

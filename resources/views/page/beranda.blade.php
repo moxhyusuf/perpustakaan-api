@@ -22,13 +22,35 @@
                         </div>
 
                         <div class="relative z-10 flex h-full max-w-2xl flex-col justify-center px-5 py-7 sm:px-7 sm:py-9 lg:px-8 lg:py-10">
-                            <p class="mb-3 inline-flex w-fit items-center gap-2 rounded-full bg-white/80 px-3 py-2 text-[10px] sm:text-xs font-bold uppercase tracking-[0.18em] text-theme-green shadow-sm">
+                            <p class="mb-3 inline-flex w-fit items-center gap-2 rounded-full bg-white/60 px-3 py-2 text-[8px] sm:text-xs font-bold uppercase tracking-[0.18em] text-theme-green shadow-sm">
                                 <i class="fa-solid fa-chart-line"></i>
-                                Dashboard Monitoring
+                                Dashboard Literasi Desa/Kelurahan
                             </p>
-                            <h2 class="max-w-[10ch] text-[2rem] sm:text-[2.6rem] lg:text-[3.1rem] xl:text-[3.3rem] font-extrabold leading-[0.95] tracking-tight text-theme-dark">
-                                Informasi Perpustakaan Kabupaten Probolinggo
+                            <h2 class="hero-title
+                            max-w-[11ch]
+                            text-[2.2rem]
+                            sm:text-[2.8rem]
+                            lg:text-[3.4rem]
+                            xl:text-[3.8rem]
+                            font-extrabold
+                            leading-[1.05]
+                            tracking-[-1.5px]
+                            text-theme-dark
+                            ">
+                                Literasi Maju
+                                <br>
+
+                                <span class="text-theme-green">
+                                    Probolinggo
+                                </span>
+
                             </h2>
+                            <!-- Tambahan Tagline -->
+                            <div class="hero-tagline mt-0,5 mb-5">
+                                <i class="fas fa-seedling"></i>
+                                Membangun Negeri melalui Literasi menuju
+                                <strong>Probolinggo SAE</strong>
+                            </div>
                             <p class="mt-4 max-w-xl text-sm sm:text-[15px] leading-6 sm:leading-7 text-slate-600">
                                 Akses data kegiatan, layanan, publikasi, dan
                                 capaian perpustakaan di Kabupaten
@@ -282,10 +304,6 @@
                     </div>
                 </article>
             </section>
-            {{-- <div class="rounded-2xl border border-slate-200 bg-white p-4 sm:p-6">
-                <h3 class="mb-4 text-base font-bold text-slate-800">Lokasi Perpustakaan</h3>
-                <div id="map-perpustakaan" style="height: 400px; border-radius: 0.75rem;"></div>
-            </div> --}}
         </main>
 
         @include('layout.footer')

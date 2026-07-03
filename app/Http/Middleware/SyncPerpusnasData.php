@@ -76,7 +76,6 @@ class SyncPerpusnasData
 
                 if ($name === 'iku3513' && isset($decoded->data) && is_array($decoded->data)) {
                     $decoded->data = $this->dedupePerpustakaan($decoded->data);
-                    // dd($decoded->data);
                 }
 
                 $pretty = json_encode(
@@ -112,7 +111,6 @@ class SyncPerpusnasData
             $existingValid = $existingSkor !== '-' && $existingSkor !== null && $existingSkor !== '';
             $newValid      = $newSkor !== '-' && $newSkor !== null && $newSkor !== '';
 
-            // Replace hanya kalau yang lama belum valid, sedangkan yang baru valid
             if (!$existingValid && $newValid) {
                 $grouped[$key] = $item;
             }

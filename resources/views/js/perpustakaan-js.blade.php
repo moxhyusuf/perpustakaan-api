@@ -25,11 +25,113 @@
             },
             {
                 id: 2,
-                nama: "Perpustakaan Umum Kota Probolinggo",
+                nama: "Perpustakaan Patriot Desa Brumbungan Lor",
                 alamat: "",
-                lat: -7.743810327397893,
-                lng: 113.21686548009782,
+                lat: -7.793262401807052,
+                lng: 113.34034081219939,
             },
+            {
+                id: 3,
+                nama: "Rumah Baca Cahaya Probolinggo",
+                alamat: "",
+                lat: -7.820341024033946,
+                lng: 113.17969492355932,
+            },
+            {
+                id: 4,
+                nama: "Perpustakaan Desa Pendil",
+                alamat: "",
+                lat: -7.820870682411544,
+                lng: 113.32287568316617,
+            },
+            {
+                id: 5,
+                nama: "Perpustakaan Desa Alassapi",
+                alamat: "",
+                lat: -7.8047067264051595,
+                lng: 113.32834945551755,
+            },
+            {
+                id: 6,
+                nama: "Perpustakaan Desa Alasnyiur",
+                alamat: "",
+                lat: -7.79314172348907,
+                lng: 113.50344406197904,
+            },
+            {
+                id: 7,
+                nama: "Perpustakaan Desa Bago",
+                alamat: "",
+                lat: -7.828701609816044,
+                lng: 113.49415701034826,
+            },
+            {
+                id: 8,
+                nama: "Perpustakaan Desa Sentul",
+                alamat: "",
+                lat: -7.845259138635394,
+                lng: 113.48657956411525,
+            },
+            {
+                id: 9,
+                nama: "Perpustakaan Desa Klaseman",
+                alamat: "",
+                lat: -7.785083936371453,
+                lng: 113.34423854237833,
+            },
+            {
+                id: 10,
+                nama: "Perpustakaan Desa Sebaung",
+                alamat: "",
+                lat: -7.80968607751811,
+                lng: 113.31070575303326,
+            },
+            {
+                id: 11,
+                nama: "Perpustakaan Desa Kotaanyar",
+                alamat: "",
+                lat: -7.721633190413267,
+                lng: 113.5409321136283,
+            },
+            {
+                id: 12,
+                nama: "Perpustakaan Kedungrejoso",
+                alamat: "",
+                lat: -7.748377827765801,
+                lng: 113.52003775247546,
+            },
+            {
+                id: 13,
+                nama: "Perpustakaan Desa Sidopekso",
+                alamat: "",
+                lat: -7.750605875865514,
+                lng: 113.42544988316499,
+            },
+            {
+                id: 14,
+                nama: "Perpustakaan Desa Kregenan",
+                alamat: "",
+                lat: -7.7803053902245916,
+                lng: 113.38518529480369,
+            },
+            {
+                id: 15,
+                nama: "Perpustakaan Sumberlele",
+                alamat: "",
+                lat: -7.760025641775184,
+                lng: 113.43857156596721,
+            },
+            {
+                id: 16,
+                nama: "Perpustakaan Cendekia Kamalkuning",
+                alamat: "",
+                lat: -7.799983481581532,
+                lng: 113.40249767708019,
+            },
+
+
+
+
         ];
 
         try {
@@ -39,7 +141,7 @@
                 ApiService.getPengunjung(),
                 ApiService.getPelibatan(),
                 ApiService.getPublikasi(),
-                ApiService.getPeningkatan()
+                ApiService.getFasilitas()
             ]);
 
             if (!kpiData) {
