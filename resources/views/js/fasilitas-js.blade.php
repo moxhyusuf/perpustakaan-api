@@ -34,6 +34,7 @@
     function renderEmptyState() {
         document.getElementById("stat-laporan").textContent = "0";
         document.getElementById("stat-komputer").textContent = "0";
+        document.getElementById("stat-buku").textContent = "0";
         document.getElementById("stat-bandwidth").textContent = "0";
 
         document.getElementById("table-body").innerHTML = `
@@ -48,11 +49,13 @@
     function renderSummary(data) {
         const totalLaporan = data.length;
         let totalKomputer = 0;
+        let totalBuku = 0;
         let totalBandwidth = 0;
         let bandwidthCount = 0;
 
         data.forEach((item) => {
             totalKomputer += item.jumlah_komputer || 0;
+            totalBuku += item.jumlah_buku || 0 + item.jumlah_buku_digital || 0;
             if (item.bandwidth != null && item.bandwidth > 0) {
                 totalBandwidth += item.bandwidth;
                 bandwidthCount++;
@@ -63,6 +66,7 @@
 
         document.getElementById("stat-laporan").textContent = totalLaporan.toLocaleString("id-ID");
         document.getElementById("stat-komputer").textContent = totalKomputer.toLocaleString("id-ID");
+        document.getElementById("stat-buku").textContent = totalBuku.toLocaleString("id-ID");
         document.getElementById("stat-bandwidth").textContent = rataBandwidth.toLocaleString("id-ID");
     }
 
@@ -142,9 +146,6 @@
         let totalBukuFisik = 0;
         let totalBukuDigital = 0;
 
-        // Ideally, you only sum the *latest* entry for each library to avoid duplicates,
-        // but for dashboard simplicity and assuming input formats, we'll take the sum
-        // or maybe just the max reported per library. Let's do max per library for a better representation.
         const maxBukuPerPerpus = {};
 
         data.forEach((item) => {

@@ -11,7 +11,7 @@
 
         <main class="px-3 py-3 sm:px-4 sm:py-4 lg:px-5 lg:py-5 xl:px-6">
             <!-- Summary Cards -->
-            <section class="mb-6 grid grid-cols-1 gap-4 sm:grid-cols-3">
+            <section class="mb-6 grid grid-cols-1 gap-4 sm:grid-cols-4">
                 <article class="metric-card rounded-2xl border border-slate-200 bg-white p-5 shadow-sm hover-card">
                     <div class="flex items-start justify-between gap-3">
                         <div class="min-w-0">
@@ -24,6 +24,21 @@
                         </div>
                         <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-theme-light text-xl text-theme-green">
                             <i class="fa-solid fa-file-lines"></i>
+                        </div>
+                    </div>
+                </article>
+                <article class="metric-card rounded-2xl border border-slate-200 bg-white p-5 shadow-sm hover-card">
+                    <div class="flex items-start justify-between gap-3">
+                        <div class="min-w-0">
+                            <p class="text-sm text-slate-500">
+                                Total Buku (Fisik & Digital)
+                            </p>
+                            <h3 id="stat-buku" class="mt-2 text-3xl font-extrabold text-gray-600">
+                                -
+                            </h3>
+                        </div>
+                        <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-gray-50 text-xl text-gray-600">
+                            <i class="fa-solid fa-book"></i>
                         </div>
                     </div>
                 </article>
@@ -128,7 +143,7 @@
     </div>
 
     @include('js.api-js')
-    @include('js.peningkatan-js')
+    @include('js.fasilitas-js')
 </body>
 
 </html>

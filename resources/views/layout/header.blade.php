@@ -12,7 +12,7 @@
                             Kabupaten Probolinggo
                         </p>
                         <p class="text-[11px] sm:text-xs text-slate-500 leading-tight">
-                            Transformasi Perpustakaan Berbasis Inklusi
+                            Transformasi Perpustakaan Berbasis Inklusi Sosial
                         </p>
                     </div>
                 </div>
@@ -30,12 +30,11 @@
 
             <a href="/publikasi" class="{{ request()->is('publikasi') ? 'border-b-2 border-theme-green pb-1 text-theme-green' : 'transition hover:text-theme-green' }}">Publikasi</a>
 
-            <a href="/peningkatan" class="{{ request()->is('peningkatan') ? 'border-b-2 border-theme-green pb-1 text-theme-green' : 'transition hover:text-theme-green' }}">Peningkatan</a>
+            <a href="/fasilitas" class="{{ request()->is('fasilitas') ? 'border-b-2 border-theme-green pb-1 text-theme-green' : 'transition hover:text-theme-green' }}">Fasilitas</a>
 
             <a href="/replikasi" class="{{ request()->is('replikasi') ? 'border-b-2 border-theme-green pb-1 text-theme-green' : 'transition hover:text-theme-green' }}">Replikasi Mandiri</a>
 
             <a href="/kpi" class="{{ request()->is('kpi') ? 'border-b-2 border-theme-green pb-1 text-theme-green' : 'transition hover:text-theme-green' }}">KPI Perpustakaan</a>
-
 
             <a href="/rekap" class="{{ request()->is('rekap') ? 'border-b-2 border-theme-green pb-1 text-theme-green' : 'transition hover:text-theme-green' }}">Rekap</a>
         </nav>
@@ -48,7 +47,7 @@
             <a href="/pengunjung" class="{{ request()->is('pengunjung') ? 'text-theme-green' : '' }}">Pengunjung</a>
             <a href="/pelibatan" class="{{ request()->is('pelibatan') ? 'text-theme-green' : '' }}">Pelibatan</a>
             <a href="/publikasi" class="{{ request()->is('publikasi') ? 'text-theme-green' : '' }}">Publikasi</a>
-            <a href="/peningkatan" class="{{ request()->is('peningkatan') ? 'text-theme-green' : '' }}">Peningkatan</a>
+            <a href="/fasilitas" class="{{ request()->is('fasilitas') ? 'text-theme-green' : '' }}">Fasilitas</a>
             <a href="/replikasi" class="{{ request()->is('replikasi') ? 'text-theme-green' : '' }}">Replikasi</a>
             <a href="/kpi" class="{{ request()->is('kpi') ? 'text-theme-green' : '' }}">KPI</a>
             <a href="/rekap" class="{{ request()->is('rekap') ? 'text-theme-green' : '' }}">Rekap</a>

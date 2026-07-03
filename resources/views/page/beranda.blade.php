@@ -109,13 +109,13 @@
                             <div class="flex items-start justify-between gap-3">
                                 <div class="min-w-0">
                                     <p class="text-xs sm:text-sm text-slate-500">
-                                        Peningkatan
+                                        Fasilitas
                                     </p>
                                     <h3 id="stat-advokasi" class="mt-2 text-2xl sm:text-[30px] font-extrabold text-theme-dark">
                                         -
                                     </h3>
                                     <p class="mt-2 text-[10px] sm:text-xs text-slate-400">
-                                        Data peningkatan
+                                        Data fasilitas
                                     </p>
                                 </div>
                                 <div class="flex h-10 w-10 sm:h-11 sm:w-11 items-center justify-center rounded-2xl bg-theme-light text-base sm:text-lg text-theme-green">

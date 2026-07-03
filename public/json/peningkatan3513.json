@@ -357,7 +357,7 @@
             "jumlah_buku": 65573,
             "jumlah_buku_digital": 5333,
             "jumlah_komputer": 13,
-            "bandwidth": 150,
+            "bandwidth": 200,
             "tanggal_input": "2026-06-30",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -389,6 +389,36 @@
             "jumlah_komputer": 3,
             "bandwidth": 100,
             "tanggal_input": "2026-06-30",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
+            "perpus_nama": "Perpustakaan Desa Alas Tengah",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": "Paiton",
+            "desa_name": "Alastengah",
+            "bulan": "Juli",
+            "tahun": "2026",
+            "jumlah_buku": 318,
+            "jumlah_buku_digital": 2,
+            "jumlah_komputer": 1,
+            "bandwidth": 50,
+            "tanggal_input": "2026-07-02",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
+            "perpus_nama": "Perpustakaan Desa Kedawung",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": "Kuripan",
+            "desa_name": "Kedawung",
+            "bulan": "Juli",
+            "tahun": "2026",
+            "jumlah_buku": 1104,
+            "jumlah_buku_digital": 249,
+            "jumlah_komputer": 1,
+            "bandwidth": 39,
+            "tanggal_input": "2026-07-02",
             "is_verified": "Sudah Diverifikasi"
         }
     ]

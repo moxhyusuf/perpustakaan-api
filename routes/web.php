@@ -11,7 +11,7 @@ Route::middleware('sync.perpusnas')
         Route::get('/pengunjung', 'pengunjung');
         Route::get('/pelibatan', 'pelibatan');
         Route::get('/publikasi', 'publikasi');
-        Route::get('/peningkatan', 'peningkatan');
+        Route::get('/fasilitas', 'fasilitas');
         Route::get('/replikasi', 'replikasi');
         Route::get('/kpi', 'kpi');
         Route::get('/perpustakaan', 'perpustakaan');
