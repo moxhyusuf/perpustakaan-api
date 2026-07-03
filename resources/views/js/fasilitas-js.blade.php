@@ -55,7 +55,7 @@
 
         data.forEach((item) => {
             totalKomputer += item.jumlah_komputer || 0;
-            totalBuku += item.jumlah_buku || 0 + item.jumlah_buku_digital || 0;
+            totalBuku += (item.jumlah_buku || 0) + (item.jumlah_buku_digital || 0);
             if (item.bandwidth != null && item.bandwidth > 0) {
                 totalBandwidth += item.bandwidth;
                 bandwidthCount++;

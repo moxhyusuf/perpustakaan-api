@@ -185,9 +185,17 @@
             publikasi ? publikasi.length : 0
         ).toLocaleString("id-ID");
 
-        document.getElementById("stat-advokasi").innerText = (
-            peningkatan ? peningkatan.length : 0
-        ).toLocaleString("id-ID");
+        const totalBuku = peningkatan ?
+            peningkatan.reduce(
+                (sum, item) =>
+                sum +
+                Number(item.jumlah_buku || 0) +
+                Number(item.jumlah_buku_digital || 0),
+                0,
+            ) :
+            0;
+        document.getElementById("stat-buku").innerText =
+            totalBuku.toLocaleString("id-ID");
 
         const totalReplikasi = replikasi ?
             replikasi.reduce((sum, item) => sum + Number(item.jumlah_desa || 0), 0) :
