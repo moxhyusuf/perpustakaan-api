@@ -2,7 +2,7 @@
 <html lang="id">
 
 <head>
-    @include('layout.head', ['title' => 'Data Pengunjung'])
+    @include('layout.head', ['title' => 'Data Perpustakaan'])
     <style>
         .modal-scrollbar::-webkit-scrollbar {
             width: 8px;
