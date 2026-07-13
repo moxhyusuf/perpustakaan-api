@@ -42,7 +42,7 @@
             "jumlah_buku": 65573,
             "jumlah_buku_digital": 5333,
             "jumlah_komputer": 13,
-            "bandwidth": 100,
+            "bandwidth": 200,
             "tanggal_input": "2026-01-15",
             "is_verified": "Sudah Diverifikasi"
         },
@@ -419,6 +419,21 @@
             "jumlah_komputer": 1,
             "bandwidth": 39,
             "tanggal_input": "2026-07-02",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
+            "perpus_nama": "B24 Perpustakaan Rumah Cahaya (Rumah Baca Hasilkan Karya)",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": "Wonomerto",
+            "desa_name": "Pohsangit Tengah",
+            "bulan": "Juli",
+            "tahun": "2026",
+            "jumlah_buku": 3590,
+            "jumlah_buku_digital": 300,
+            "jumlah_komputer": 3,
+            "bandwidth": 30,
+            "tanggal_input": "2026-07-08",
             "is_verified": "Sudah Diverifikasi"
         }
     ]

@@ -95,6 +95,9 @@
                                     Nama Kegiatan
                                 </th>
                                 <th class="whitespace-nowrap px-4 py-3 font-semibold">
+                                    foto Kegitan
+                                </th>
+                                <th class="whitespace-nowrap px-4 py-3 font-semibold">
                                     Perpustakaan
                                 </th>
                                 <th class="whitespace-nowrap px-4 py-3 font-semibold">
@@ -122,6 +125,33 @@
         </main>
 
         @include('layout.footer')
+    </div>
+
+    <div id="gallery-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4">
+        <div class="relative w-full max-w-3xl">
+            <button id="gallery-close" type="button" class="absolute -top-12 right-0 text-white/80 hover:text-white text-2xl">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="mb-3 flex items-center justify-between text-white">
+                <h4 id="gallery-title" class="text-sm font-semibold truncate pr-4"></h4>
+                <span id="gallery-counter" class="text-xs text-white/70 whitespace-nowrap"></span>
+            </div>
+
+            <div class="relative flex items-center justify-center bg-black/40 rounded-xl overflow-hidden" style="min-height:300px;">
+                <button id="gallery-prev" type="button" class="absolute left-2 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-black/50 text-white hover:bg-black/70">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+                <img id="gallery-image" src="" alt="Foto kegiatan" class="max-h-[70vh] w-auto object-contain" />
+
+                <button id="gallery-next" type="button" class="absolute right-2 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-black/50 text-white hover:bg-black/70">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <div id="gallery-thumbs" class="mt-3 flex gap-2 overflow-x-auto custom-scrollbar pb-1"></div>
+        </div>
     </div>
 
     @include('js.api-js')

@@ -1,6 +1,7 @@
 <script>
     document.addEventListener("DOMContentLoaded", () => {
         initPelibatan();
+        initGalleryModalEvents();
     });
 
     let chartBidangInstance = null;
@@ -190,6 +191,120 @@
         });
     }
 
+    function renderAttachment(attachmentStr, namaKegiatan) {
+        if (!attachmentStr) {
+            return `<div class="w-20 h-20 flex items-center justify-center rounded-lg border border-dashed border-slate-300 bg-slate-50 text-slate-400">
+                    <i class="fa-solid fa-image text-lg"></i>
+                </div>`;
+        }
+
+        const urls = attachmentStr.split(',').map(u => u.trim()).filter(Boolean);
+        const firstUrl = urls[0];
+        const totalCount = urls.length;
+        const safeTitle = (namaKegiatan || '').replace(/"/g, '&quot;');
+        const encodedUrls = encodeURIComponent(JSON.stringify(urls));
+
+        return `
+        <div class="relative inline-block">
+            <img src="${firstUrl}" alt="Attachment"
+                 class="attachment-thumb w-24 h-24 object-cover rounded-lg shadow-sm border border-slate-200 cursor-pointer hover:opacity-80 transition"
+                 data-urls="${encodedUrls}"
+                 data-title="${safeTitle}"
+                 onerror="this.onerror=null; this.closest('.relative').outerHTML='<div class=\\'w-20 h-20 flex items-center justify-center rounded-lg border border-dashed border-slate-300 bg-slate-50 text-slate-400\\'><i class=\\'fa-solid fa-image-slash text-lg\\'></i></div>';" />
+            ${totalCount > 1 ? `<span class="absolute -top-1 -right-1 bg-theme-dark text-white text-[10px] font-semibold px-1.5 py-0.5 rounded-full leading-none">+${totalCount - 1}</span>` : ''}
+        </div>
+    `;
+    }
+
+    // ==================== GALLERY MODAL ====================
+    let galleryUrls = [];
+    let galleryIndex = 0;
+
+    function openGalleryModal(urls, startIndex, title) {
+        galleryUrls = urls;
+        galleryIndex = startIndex;
+
+        document.getElementById("gallery-title").textContent = title || "Foto Kegiatan";
+        document.getElementById("gallery-modal").classList.remove("hidden");
+        document.body.style.overflow = "hidden";
+
+        renderGalleryThumbs();
+        showGalleryImage(galleryIndex);
+    }
+
+    function closeGalleryModal() {
+        document.getElementById("gallery-modal").classList.add("hidden");
+        document.body.style.overflow = "";
+        galleryUrls = [];
+        galleryIndex = 0;
+    }
+
+    function showGalleryImage(index) {
+        if (galleryUrls.length === 0) return;
+        galleryIndex = (index + galleryUrls.length) % galleryUrls.length;
+
+        document.getElementById("gallery-image").src = galleryUrls[galleryIndex];
+        document.getElementById("gallery-counter").textContent =
+            `${galleryIndex + 1} / ${galleryUrls.length}`;
+
+        document.querySelectorAll("#gallery-thumbs img").forEach((thumb, i) => {
+            thumb.classList.toggle("ring-2", i === galleryIndex);
+            thumb.classList.toggle("ring-theme-green", i === galleryIndex);
+            thumb.classList.toggle("opacity-50", i !== galleryIndex);
+        });
+
+        const showNav = galleryUrls.length > 1;
+        document.getElementById("gallery-prev").classList.toggle("hidden", !showNav);
+        document.getElementById("gallery-next").classList.toggle("hidden", !showNav);
+    }
+
+    function renderGalleryThumbs() {
+        const container = document.getElementById("gallery-thumbs");
+        if (galleryUrls.length <= 1) {
+            container.innerHTML = "";
+            return;
+        }
+        container.innerHTML = galleryUrls.map((url, i) => `
+        <img src="${url}" data-index="${i}"
+             class="gallery-thumb-item h-14 w-14 flex-shrink-0 object-cover rounded-md cursor-pointer border border-white/20 transition"
+             onerror="this.style.display='none';" />
+    `).join("");
+    }
+
+    function initGalleryModalEvents() {
+        document.getElementById("gallery-close").addEventListener("click", closeGalleryModal);
+
+        document.getElementById("gallery-modal").addEventListener("click", (e) => {
+            if (e.target.id === "gallery-modal") closeGalleryModal(); // klik backdrop
+        });
+
+        document.getElementById("gallery-prev").addEventListener("click", () => showGalleryImage(galleryIndex - 1));
+        document.getElementById("gallery-next").addEventListener("click", () => showGalleryImage(galleryIndex + 1));
+
+        document.getElementById("gallery-thumbs").addEventListener("click", (e) => {
+            const thumb = e.target.closest(".gallery-thumb-item");
+            if (thumb) showGalleryImage(parseInt(thumb.dataset.index, 10));
+        });
+
+        document.addEventListener("keydown", (e) => {
+            const modal = document.getElementById("gallery-modal");
+            if (modal.classList.contains("hidden")) return;
+
+            if (e.key === "Escape") closeGalleryModal();
+            if (e.key === "ArrowLeft") showGalleryImage(galleryIndex - 1);
+            if (e.key === "ArrowRight") showGalleryImage(galleryIndex + 1);
+        });
+
+        document.getElementById("table-body").addEventListener("click", (e) => {
+            const thumb = e.target.closest(".attachment-thumb");
+            if (!thumb) return;
+
+            const urls = JSON.parse(decodeURIComponent(thumb.dataset.urls || "[]"));
+            const title = thumb.dataset.title || "";
+            openGalleryModal(urls, 0, title);
+        });
+    }
+
     function renderTable(data) {
         if (dataTableInstance) {
             dataTableInstance.destroy();
@@ -205,6 +320,7 @@
             tr.innerHTML = `
             <td class="whitespace-nowrap px-4 py-3">${item.tanggal || "-"}</td>
             <td class="px-4 py-3 font-medium text-slate-700 max-w-[200px] truncate" title="${item.nama_kegiatan || '-'}">${item.nama_kegiatan || "-"}</td>
+            <td class="px-4 py-3">${renderAttachment(item.attachment, item.nama_kegiatan)}</td>
             <td class="px-4 py-3">${item.perpus_nama || "-"}</td>
             <td class="px-4 py-3">${item.kecamatan_name || "-"}</td>
             <td class="px-4 py-3">${item.bidang_kegiatan || "-"}</td>
@@ -214,7 +330,6 @@
             tbody.appendChild(tr);
         });
 
-        // Inisialisasi DataTable
         dataTableInstance = new DataTable("#tabel-pelibatan", {
             language: {
                 search: "Cari:",
