@@ -364,26 +364,33 @@
             .slice(0, 6);
 
         container.innerHTML = latest
-            .map(
-                (item) => `
-        <article class="flex items-start gap-3 rounded-2xl border border-slate-100 p-3 transition hover:border-emerald-100 hover:bg-slate-50 sm:gap-4 sm:p-4">
-            <div class="activity-placeholder">
-                <i class="fa-solid fa-book-open-reader text-lg sm:text-xl"></i>
-            </div>
-            <div class="min-w-0 flex-1">
-                <h4 class="truncate text-sm sm:text-[15px] font-bold leading-5 text-slate-800" title="${item.nama_kegiatan}">${item.nama_kegiatan}</h4>
-                <p class="mt-1 truncate text-xs sm:text-sm text-slate-500">${item.perpus_nama}</p>
-                <div class="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] text-slate-400">
-                    <span><i class="fa-regular fa-calendar mr-1"></i>${formatDateID(item.tanggal)}</span>
-                    <span><i class="fa-solid fa-location-dot mr-1"></i>${item.kecamatan_name || "-"}</span>
-                </div>
-            </div>
-            <div class="rounded-full bg-emerald-50 px-2.5 py-1 text-[10px] sm:text-xs font-semibold text-theme-green whitespace-nowrap">
-                ${Number(item.jumlah_peserta || 0).toLocaleString("id-ID")} Peserta
-            </div>
-        </article>
-    `,
-            )
+            .map((item) => {
+                const firstPhoto = item.attachment ? item.attachment.split(',')[0].trim() : null;
+                const thumbnail = firstPhoto ?
+                    `<img src="${firstPhoto}" alt="${item.nama_kegiatan || ''}"
+                       class="h-full w-full rounded-2xl object-cover"
+                       onerror="this.onerror=null; this.closest('.activity-placeholder').innerHTML='<i class=\\'fa-solid fa-book-open-reader text-lg sm:text-xl\\'></i>';" />` :
+                    `<i class="fa-solid fa-book-open-reader text-lg sm:text-xl"></i>`;
+
+                return `
+                <article class="flex items-start gap-3 rounded-2xl border border-slate-100 p-3 transition hover:border-emerald-100 hover:bg-slate-50 sm:gap-4 sm:p-4">
+                    <div class="activity-placeholder overflow-hidden">
+                        ${thumbnail}
+                    </div>
+                    <div class="min-w-0 flex-1">
+                        <h4 class="truncate text-sm sm:text-[15px] font-bold leading-5 text-slate-800" title="${item.nama_kegiatan}">${item.nama_kegiatan}</h4>
+                        <p class="mt-1 truncate text-xs sm:text-sm text-slate-500">${item.perpus_nama}</p>
+                        <div class="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] text-slate-400">
+                            <span><i class="fa-regular fa-calendar mr-1"></i>${formatDateID(item.tanggal)}</span>
+                            <span><i class="fa-solid fa-location-dot mr-1"></i>${item.kecamatan_name || "-"}</span>
+                        </div>
+                    </div>
+                    <div class="rounded-full bg-emerald-50 px-2.5 py-1 text-[10px] sm:text-xs font-semibold text-theme-green whitespace-nowrap">
+                        ${Number(item.jumlah_peserta || 0).toLocaleString("id-ID")} Peserta
+                    </div>
+                </article>
+            `;
+            })
             .join("");
     }
 
