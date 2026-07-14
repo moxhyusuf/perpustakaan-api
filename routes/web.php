@@ -10,6 +10,7 @@ Route::middleware('sync.perpusnas')
         Route::get('/pengunjung', 'pengunjung');
         Route::get('/pelibatan', 'pelibatan');
         Route::get('/publikasi', 'publikasi');
+        Route::get('/advokasi', 'advokasi');
         Route::get('/fasilitas', 'fasilitas');
         Route::get('/replikasi', 'replikasi');
         Route::get('/kpi', 'kpi');

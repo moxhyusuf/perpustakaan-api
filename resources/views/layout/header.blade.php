@@ -30,6 +30,8 @@
 
             <a href="/publikasi" class="{{ request()->is('publikasi') ? 'border-b-2 border-theme-green pb-0.5 text-theme-green' : 'transition hover:text-theme-green' }}">Publikasi</a>
 
+            <a href="/advokasi" class="{{ request()->is('advokasi') ? 'border-b-2 border-theme-green pb-0.5 text-theme-green' : 'transition hover:text-theme-green' }}">Advokasi</a>
+
             <a href="/fasilitas" class="{{ request()->is('fasilitas') ? 'border-b-2 border-theme-green pb-0.5 text-theme-green' : 'transition hover:text-theme-green' }}">Fasilitas</a>
 
             <a href="/replikasi" class="{{ request()->is('replikasi') ? 'border-b-2 border-theme-green pb-0.5 text-theme-green' : 'transition hover:text-theme-green' }}">Replikasi Mandiri</a>
@@ -47,6 +49,7 @@
             <a href="/pengunjung" class="{{ request()->is('pengunjung') ? 'text-theme-green' : '' }}">Pengunjung</a>
             <a href="/pelibatan" class="{{ request()->is('pelibatan') ? 'text-theme-green' : '' }}">Pelibatan</a>
             <a href="/publikasi" class="{{ request()->is('publikasi') ? 'text-theme-green' : '' }}">Publikasi</a>
+            <a href="/advokasi" class="{{ request()->is('advokasi') ? 'text-theme-green' : '' }}">Advokasi</a>
             <a href="/fasilitas" class="{{ request()->is('fasilitas') ? 'text-theme-green' : '' }}">Fasilitas</a>
             <a href="/replikasi" class="{{ request()->is('replikasi') ? 'text-theme-green' : '' }}">Replikasi</a>
             <a href="/kpi" class="{{ request()->is('kpi') ? 'text-theme-green' : '' }}">KPI</a>

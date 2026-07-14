@@ -26,6 +26,11 @@ class PageController extends Controller
         return view('page.publikasi');
     }
 
+    public function advokasi(): View
+    {
+        return view('page.advokasi');
+    }
+
     public function fasilitas(): View
     {
         return view('page.fasilitas');

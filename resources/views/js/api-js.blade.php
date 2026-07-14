@@ -22,7 +22,8 @@
         getPublikasi: () => ApiService.fetchData('publikasi3513.json'),
         getReplikasi: () => ApiService.fetchData('replikasi3513.json'),
         getKPI: () => ApiService.fetchData('iku3513.json'),
-        getFasilitas: () => ApiService.fetchData('peningkatan3513.json')
+        getFasilitas: () => ApiService.fetchData('peningkatan3513.json'),
+        getAdvokasi: () => ApiService.fetchData('advokasi3513.json'),
     };
 
     window.ApiService = ApiService;
