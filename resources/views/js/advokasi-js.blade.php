@@ -164,7 +164,7 @@
                         .join(', ');
 
                     const attachmentLink = item.attachment && item.attachment !== '-' ?
-                        `<a href="${item.attachment}" target="_blank" class="mt-1 inline-flex items-center gap-1 text-xs text-theme-green hover:underline"><i class="fa-solid fa-paperclip"></i> Lampiran</a>` :
+                        `<a href="https://transformasi.perpusnas.go.id${item.attachment}" target="_blank" class="mt-1 inline-flex items-center gap-1 text-xs text-theme-green hover:underline"><i class="fa-solid fa-paperclip"></i> Lampiran</a>` :
                         '';
 
                     return `
