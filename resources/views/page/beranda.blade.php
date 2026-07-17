@@ -48,8 +48,7 @@
                             <!-- Tambahan Tagline -->
                             <div class="hero-tagline mt-0,5 mb-5">
                                 <i class="fas fa-seedling"></i>
-                                Membangun Negeri melalui Literasi menuju
-                                <strong>Probolinggo SAE</strong>
+                                Membangun Negeri melalui Literasi menuju Probolinggo SAE
                             </div>
                             <p class="mt-4 max-w-xl text-sm sm:text-[15px] leading-6 sm:leading-7 text-slate-600">
                                 Akses data kegiatan, layanan, publikasi, dan

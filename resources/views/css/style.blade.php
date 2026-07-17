@@ -357,36 +357,39 @@
     }
 
     .hero-title {
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
 
-    .hero-tagline {
-        display: flex;
-        align-items: center;
-        gap: 10px;
+   .hero-tagline{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
 
-        margin-top: 2px;
-        margin-bottom: 24px;
+    margin-top: 2px;
+    margin-bottom: 24px;
 
-        font-family: 'Cormorant Garamond', serif;
-        font-size: 17px;
-        font-style: italic;
-        font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(13px, 1.5vw, 17px);
+    font-style: italic;
+    font-weight: 600;
+    line-height: 1.6;
 
-        color: #4f6b54;
-        letter-spacing: .3px;
+    color: #4f6b54;
+    letter-spacing: .3px;
     }
 
-    .hero-tagline i {
-        color: #6d8f73;
-        font-size: 17px;
+    .hero-tagline span{
+        display:block;
+        flex:1;
     }
 
-    .hero-tagline strong {
-        color: #35553c;
-        font-weight: 700;
+    .hero-tagline i{
+        color:#6d8f73;
+        font-size:17px;
+        margin-top:4px;
+        flex-shrink:0;
     }
-
+    
     .metric-card {
         height: 165px;
     }
@@ -408,5 +411,284 @@
 
     .metric-card .min-w-0 p:last-child {
         margin-top: auto;
+    }
+
+    /* ===========================
+   PROFESSIONAL MAP
+=========================== */
+
+    #map-perpustakaan{
+        height:520px;
+        width:100%;
+        border-radius:20px;
+        overflow:hidden;
+
+        border:1px solid #e5e7eb;
+
+        box-shadow:
+            0 8px 25px rgba(0,0,0,.08);
+    }
+
+    /* zoom button */
+
+    .leaflet-control-zoom{
+
+        border:none !important;
+
+        box-shadow:
+            0 6px 18px rgba(0,0,0,.15)!important;
+
+        border-radius:14px!important;
+
+        overflow:hidden;
+    }
+
+    .leaflet-control-zoom a{
+
+        width:40px;
+        height:40px;
+
+        line-height:40px;
+
+        font-size:18px;
+
+        background:#fff!important;
+    }
+
+    .leaflet-control-zoom a:hover{
+
+        background:#f3f4f6!important;
+    }
+    .map-wrapper{
+        position:relative;
+        overflow:hidden;
+    }
+
+    /* ===========================
+    MAP LEGEND
+    =========================== */
+
+    .map-legend{
+
+        position:absolute;
+
+        right:20px;
+
+        bottom:20px;
+
+        background:#ffffff;
+
+        padding:14px 16px;
+
+        border-radius:14px;
+
+        border:1px solid #e5e7eb;
+
+        box-shadow:0 8px 25px rgba(0,0,0,.12);
+
+        z-index:10;
+
+        min-width:180px;
+
+    }
+
+    .legend-title{
+
+        font-size:14px;
+
+        font-weight:700;
+
+        color:#1e293b;
+
+        margin-bottom:10px;
+
+    }
+
+    .legend-item{
+
+        display:flex;
+
+        align-items:center;
+
+        gap:10px;
+
+        margin:8px 0;
+
+        font-size:13px;
+
+        color:#475569;
+
+    }
+
+    .legend-dot{
+
+        width:14px;
+
+        height:14px;
+
+        border-radius:50%;
+
+    }
+
+    .legend-green{
+
+        background:#22c55e;
+    }
+
+    .legend-orange{
+
+        background:#f97316;
+    }
+
+    .legend-red{
+
+        background:#ef4444;
+    }
+
+    .legend-blue{
+
+        background:#3b82f6;
+    }
+
+    /* popup */
+
+    .leaflet-popup-content-wrapper{
+
+        border-radius:18px;
+
+        box-shadow:
+            0 12px 30px rgba(0,0,0,.18);
+
+        border:none;
+    }
+
+    .leaflet-popup-tip{
+
+        box-shadow:none;
+    }
+    .map-popup{
+    width:240px;
+    font-family:'Poppins',sans-serif;
+    }
+
+    .popup-title{
+        font-size:15px;
+        font-weight:700;
+        color:#1e293b;
+        margin-bottom:10px;
+    }
+
+    .popup-divider{
+        height:1px;
+        background:#e2e8f0;
+        margin:10px 0;
+    }
+
+    .popup-item{
+        display:flex;
+        justify-content:space-between;
+        margin:8px 0;
+        font-size:13px;
+        color:#475569;
+    }
+
+    .popup-btn{
+        width:100%;
+        border:none;
+        background:#16a34a;
+        color:white;
+        border-radius:8px;
+        padding:8px;
+        cursor:pointer;
+        font-weight:600;
+    }
+
+    .popup-btn:hover{
+        background:#15803d;
+    }
+    .popup-btn-map,
+    .popup-btn-detail{
+        display:block;
+        width:100%;
+        text-align:center;
+        padding:10px;
+        margin-top:8px;
+        border-radius:8px;
+        text-decoration:none;
+        font-size:13px;
+        font-weight:600;
+        transition:.2s;
+    }
+
+    .popup-btn-map{
+        background:#2563eb;
+        color:black;
+    }
+
+    .popup-btn-map:hover{
+        background:#1d4ed8;
+    }
+
+    .popup-btn-detail{
+        background:#16a34a;
+        color:white;
+        border:none;
+        cursor:pointer;
+    }
+
+    .popup-btn-detail:hover{
+        background:#15803d;
+    }
+
+    .popup-btn-detail:disabled{
+        background:#94a3b8;
+        cursor:not-allowed;
+    }
+    /* ===========================
+   RESPONSIVE MAP LEGEND
+    =========================== */
+
+    @media (max-width: 768px){
+
+        .map-legend{
+
+            right:10px;
+
+            bottom:10px;
+
+            min-width:120px;
+
+            padding:8px 10px;
+
+            border-radius:10px;
+
+        }
+
+        .legend-title{
+
+            font-size:12px;
+
+            margin-bottom:6px;
+
+        }
+
+        .legend-item{
+
+            font-size:11px;
+
+            gap:6px;
+
+            margin:5px 0;
+
+        }
+
+        .legend-dot{
+
+            width:10px;
+
+            height:10px;
+
+        }
+
     }
 </style>

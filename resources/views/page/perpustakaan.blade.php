@@ -40,21 +40,24 @@
 
         <main class="flex-1 px-4 py-6 sm:px-6 lg:px-8 xl:px-10">
             <!-- Summary Counter Cards -->
-            <section class="grid grid-cols-2 gap-4 lg:grid-cols-4 mb-8">
-                <div class="bg-white p-4 rounded-2xl border border-slate-200/60 shadow-sm flex items-center gap-4">
+            <section class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-4 mb-8">
+                <div class="bg-white rounded-3xl border border-slate-100 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 p-5">
                     <div class="h-10 w-10 sm:h-12 sm:w-12 rounded-xl bg-slate-100 text-slate-600 flex items-center justify-center text-lg sm:text-xl shrink-0">
                         <i class="fa-solid fa-building"></i>
                     </div>
                     <div>
                         <p class="text-xs text-slate-500 font-medium uppercase tracking-wider">
-                            Total Perpus
+                            Total Perpustakaan
+                        </p>
+                        <p class="text-xs text-slate-400 mt-2">
+                            Data aktif dari API TPBIS
                         </p>
                         <h4 id="count-total" class="text-lg sm:text-xl font-bold text-slate-800 mt-0.5">
                             -
                         </h4>
                     </div>
                 </div>
-                <div class="bg-white p-4 rounded-2xl border border-slate-200/60 shadow-sm flex items-center gap-4">
+                <div class="bg-white rounded-3xl border border-slate-100 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 p-5">
                     <div class="h-10 w-10 sm:h-12 sm:w-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-lg sm:text-xl shrink-0">
                         <i class="fa-solid fa-circle-check"></i>
                     </div>
@@ -62,12 +65,15 @@
                         <p class="text-xs text-slate-500 font-medium uppercase tracking-wider">
                             Tinggi
                         </p>
+                        <p class="text-xs text-slate-400 mt-2">
+                            Kategori KPI
+                        </p>
                         <h4 id="count-sangat-baik" class="text-lg sm:text-xl font-bold text-emerald-600 mt-0.5">
                             -
                         </h4>
                     </div>
                 </div>
-                <div class="bg-white p-4 rounded-2xl border border-slate-200/60 shadow-sm flex items-center gap-4">
+                <div class="bg-white rounded-3xl border border-slate-100 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 p-5">
                     <div class="h-10 w-10 sm:h-12 sm:w-12 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center text-lg sm:text-xl shrink-0">
                         <i class="fa-solid fa-circle-exclamation"></i>
                     </div>
@@ -75,29 +81,96 @@
                         <p class="text-xs text-slate-500 font-medium uppercase tracking-wider">
                             Sedang
                         </p>
+                        <p class="text-xs text-slate-400 mt-2">
+                            Kategori KPI
+                        </p>
                         <h4 id="count-cukup" class="text-lg sm:text-xl font-bold text-amber-600 mt-0.5">
                             -
                         </h4>
                     </div>
                 </div>
-                <div class="bg-white p-4 rounded-2xl border border-slate-200/60 shadow-sm flex items-center gap-4 col-span-2 lg:col-span-1">
+                <div class="bg-white rounded-3xl border border-slate-100 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 p-5">
                     <div class="h-10 w-10 sm:h-12 sm:w-12 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center text-lg sm:text-xl shrink-0">
                         <i class="fa-solid fa-circle-minus"></i>
                     </div>
                     <div>
                         <p class="text-xs text-slate-500 font-medium uppercase tracking-wider">
-                            Rendah / Belum
+                            Rendah
+                        </p>
+                        <p class="text-xs text-slate-400 mt-2">
+                            Kategori KPI
                         </p>
                         <h4 id="count-kurang" class="text-lg sm:text-xl font-bold text-rose-600 mt-0.5">
                             -
                         </h4>
                     </div>
                 </div>
+                <div class="bg-white rounded-3xl border border-slate-100 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 p-5">
+                    <div class="h-10 w-10 sm:h-12 sm:w-12 rounded-xl bg-slate-100 text-slate-500 flex items-center justify-center text-lg sm:text-xl shrink-0">
+                        <i class="fa-solid fa-circle-question"></i>
+                    </div>
+                    <div>
+                        <p class="text-xs text-slate-500 font-medium uppercase tracking-wider">
+                            Belum Dinilai
+                        </p>
+                        <p class="text-xs text-slate-400 mt-2">
+                            Kategori KPI
+                        </p>
+                        <h4 id="count-belum" class="text-lg sm:text-xl font-bold text-slate-600 mt-0.5">
+                            -
+                        </h4>
+                    </div>
+                </div>
             </section>
 
-            <div class="rounded-2xl border border-slate-200 bg-white p-4 sm:p-6">
-                <h3 class="mb-4 text-base font-bold text-slate-800">Lokasi Perpustakaan</h3>
-                <div id="map-perpustakaan" style="height: 400px; border-radius: 0.75rem;"></div>
+            <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between px-6 pt-6">
+                <div>
+                    <h2 class="text-2xl font-bold text-slate-800">
+                        Lokasi Perpustakaan
+                    </h2>
+                    <p class="text-sm text-slate-500 mt-1">
+                        Sebaran lokasi perpustakaan di Kabupaten Probolinggo.
+                    </p>
+                </div>
+            </div>
+            <div class="p-6 pt-4">
+
+                <div class="map-wrapper">
+
+                    <div id="map-perpustakaan" class="rounded-2xl overflow-hidden border border-slate-200" style="height:550px">
+                    </div>
+
+                    <!-- Legend -->
+                    <div class="map-legend">
+
+                        <div class="legend-title">
+                            Keterangan KPI
+                        </div>
+
+                        <div class="legend-item">
+                            <span class="legend-dot legend-green"></span>
+                            <span>Tinggi</span>
+                        </div>
+
+                        <div class="legend-item">
+                            <span class="legend-dot legend-orange"></span>
+                            <span>Sedang</span>
+                        </div>
+
+                        <div class="legend-item">
+                            <span class="legend-dot legend-red"></span>
+                            <span>Rendah</span>
+                        </div>
+
+                        <div class="legend-item">
+                            <span class="legend-dot legend-blue"></span>
+                            <span>Belum Dinilai</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
 
             <!-- Filters Section -->

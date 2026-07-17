@@ -6,7 +6,7 @@
             "provinsi": "Jawa Timur",
             "kabupaten_kota": "Kab. Probolinggo",
             "desa_kelurahan": "-",
-            "skor": 93.5
+            "skor": 97.5
         },
         {
             "nama_perpustakaan": "Perpustakaan Ngadisari",
@@ -356,7 +356,7 @@
             "provinsi": "Jawa Timur",
             "kabupaten_kota": "Kab. Probolinggo",
             "desa_kelurahan": "Alastengah",
-            "skor": 80
+            "skor": 83.75
         },
         {
             "nama_perpustakaan": "Perpustakaan Desa Harmoni",
@@ -492,6 +492,13 @@
             "skor": "-"
         },
         {
+            "nama_perpustakaan": "Perpustakaan Salha Tirtana",
+            "provinsi": "Jawa Timur",
+            "kabupaten_kota": "Kab. Probolinggo",
+            "desa_kelurahan": "Alassumur Kulon",
+            "skor": "-"
+        },
+        {
             "nama_perpustakaan": "Perpustakaan Sumberlele",
             "provinsi": "Jawa Timur",
             "kabupaten_kota": "Kab. Probolinggo",
@@ -518,13 +525,6 @@
             "kabupaten_kota": "Kab. Probolinggo",
             "desa_kelurahan": "Sidopekso",
             "skor": 25
-        },
-        {
-            "nama_perpustakaan": "Perpustakaan Asembagus",
-            "provinsi": "Jawa Timur",
-            "kabupaten_kota": "Kab. Probolinggo",
-            "desa_kelurahan": "Asembagus",
-            "skor": "-"
         },
         {
             "nama_perpustakaan": "Perpustakaan Berlian",
@@ -678,13 +678,6 @@
             "provinsi": "Jawa Timur",
             "kabupaten_kota": "Kab. Probolinggo",
             "desa_kelurahan": "Kalirejo",
-            "skor": "-"
-        },
-        {
-            "nama_perpustakaan": "Perpustakaan Kedungdalem",
-            "provinsi": "Jawa Timur",
-            "kabupaten_kota": "Kab. Probolinggo",
-            "desa_kelurahan": "Kedungdalem",
             "skor": "-"
         },
         {

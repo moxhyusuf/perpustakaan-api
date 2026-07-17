@@ -16,123 +16,24 @@
         // Chart reference
         let modalChart = null;
 
-        const perpustakaanLocations = [{
-                id: 1,
-                nama: "Perpustakaan Umum Kraksaan",
-                alamat: "",
-                lat: -7.761718338741554,
-                lng: 113.41745946440774,
-            },
-            {
-                id: 2,
-                nama: "Perpustakaan Patriot Desa Brumbungan Lor",
-                alamat: "",
-                lat: -7.793262401807052,
-                lng: 113.34034081219939,
-            },
-            {
-                id: 3,
-                nama: "Rumah Baca Cahaya Probolinggo",
-                alamat: "",
-                lat: -7.820341024033946,
-                lng: 113.17969492355932,
-            },
-            {
-                id: 4,
-                nama: "Perpustakaan Desa Pendil",
-                alamat: "",
-                lat: -7.820870682411544,
-                lng: 113.32287568316617,
-            },
-            {
-                id: 5,
-                nama: "Perpustakaan Desa Alassapi",
-                alamat: "",
-                lat: -7.8047067264051595,
-                lng: 113.32834945551755,
-            },
-            {
-                id: 6,
-                nama: "Perpustakaan Desa Alasnyiur",
-                alamat: "",
-                lat: -7.79314172348907,
-                lng: 113.50344406197904,
-            },
-            {
-                id: 7,
-                nama: "Perpustakaan Desa Bago",
-                alamat: "",
-                lat: -7.828701609816044,
-                lng: 113.49415701034826,
-            },
-            {
-                id: 8,
-                nama: "Perpustakaan Desa Sentul",
-                alamat: "",
-                lat: -7.845259138635394,
-                lng: 113.48657956411525,
-            },
-            {
-                id: 9,
-                nama: "Perpustakaan Desa Klaseman",
-                alamat: "",
-                lat: -7.785083936371453,
-                lng: 113.34423854237833,
-            },
-            {
-                id: 10,
-                nama: "Perpustakaan Desa Sebaung",
-                alamat: "",
-                lat: -7.80968607751811,
-                lng: 113.31070575303326,
-            },
-            {
-                id: 11,
-                nama: "Perpustakaan Desa Kotaanyar",
-                alamat: "",
-                lat: -7.721633190413267,
-                lng: 113.5409321136283,
-            },
-            {
-                id: 12,
-                nama: "Perpustakaan Kedungrejoso",
-                alamat: "",
-                lat: -7.748377827765801,
-                lng: 113.52003775247546,
-            },
-            {
-                id: 13,
-                nama: "Perpustakaan Desa Sidopekso",
-                alamat: "",
-                lat: -7.750605875865514,
-                lng: 113.42544988316499,
-            },
-            {
-                id: 14,
-                nama: "Perpustakaan Desa Kregenan",
-                alamat: "",
-                lat: -7.7803053902245916,
-                lng: 113.38518529480369,
-            },
-            {
-                id: 15,
-                nama: "Perpustakaan Sumberlele",
-                alamat: "",
-                lat: -7.760025641775184,
-                lng: 113.43857156596721,
-            },
-            {
-                id: 16,
-                nama: "Perpustakaan Cendekia Kamalkuning",
-                alamat: "",
-                lat: -7.799983481581532,
-                lng: 113.40249767708019,
-            },
+        // Data lokasi perpustakaan
+        let perpustakaanLocations = [];
 
+        // Load koordinat perpustakaan dari JSON
+        try {
+            const response = await fetch("/data/lokasi-perpustakaan.json");
 
+            if (!response.ok) {
+                throw new Error("Gagal memuat lokasi perpustakaan");
+            }
 
+            perpustakaanLocations = await response.json();
 
-        ];
+            // console.log("Jumlah lokasi:", perpustakaanLocations.length);
+
+        } catch (err) {
+            console.error("Lokasi gagal dimuat", err);
+        }
 
         try {
             // 1. Fetch seluruh data secara paralel
@@ -308,6 +209,13 @@
             // Simpan dictionary menjadi list array perpustakaan utuh
             allLibraries = Object.values(libraryDict);
 
+            // console.log(
+            //     allLibraries.map(x => x.nama).join("\n")
+            // );
+
+            // Sorting perpustakaan berdasarkan Nama secara alfabetis agar rapi
+            allLibraries.sort((a, b) => a.nama.localeCompare(b.nama));
+
             // Sorting perpustakaan berdasarkan Nama secara alfabetis agar rapi
             allLibraries.sort((a, b) => a.nama.localeCompare(b.nama));
 
@@ -340,55 +248,262 @@
         `;
         }
 
+        function getMarkerColor(kategori) {
 
+            switch ((kategori || "").toLowerCase()) {
+
+                case "tinggi":
+                    return "#16a34a"; // Hijau
+
+                case "sedang":
+                    return "#f59e0b"; // Kuning
+
+                case "rendah":
+                    return "#dc2626"; // Merah
+
+                default:
+                    return "#9ca3af"; // Abu
+            }
+
+        }
+
+        function createMarkerIcon(color) {
+
+            return L.divIcon({
+
+                className: "",
+
+                html: `
+                <div style="
+                    width:18px;
+                    height:18px;
+                    border-radius:50%;
+                    background:${color};
+                    border:3px solid #fff;
+                    box-shadow:0 4px 12px rgba(0,0,0,.25);
+                "></div>
+                `,
+
+                iconSize: [18, 18],
+                iconAnchor: [9, 9]
+
+            });
+
+        }
+
+        // letakkan di sini
+        function normalizeName(nama) {
+            return nama
+                .toLowerCase()
+                .replace(/^b24\s+/g, "")
+                .replace(/^tbm\s+/g, "perpustakaan ")
+                .replace(/^rumah baca/g, "perpustakaan")
+                .replace(/\(.*?\)/g, "")
+                .replace(/kecamatan\s+[a-z\s]+/g, "")
+                .replace(/kab(\.|upaten)?\s+probolinggo/g, "")
+                .replace(/\s+/g, " ")
+                .trim();
+
+            const aliasNama = {
+                "perpustakaan patriot desa brumbungan lor": "perpustakaan brumbungan lor",
+
+                "rumah baca cahaya probolinggo": "b24 perpustakaan rumah cahaya (rumah baca hasilkan karya)",
+
+                "perpustakaan desa alasnyiur": "perpustakaan alas nyiur",
+
+                "perpustakaan desa sentul": "perpustakaan sentul kab probolinggo",
+
+                "perpustakaan desa setulus hati": "perpustakaan desa sutulus hati"
+            };
+        }
 
 
 
         function initMapPerpustakaan() {
-            let mapPerpustakaanInstance = null;
+
+            if (!perpustakaanLocations.length) {
+                console.warn("Data lokasi belum tersedia");
+                return;
+            }
+
             const mapEl = document.getElementById("map-perpustakaan");
+
             if (!mapEl || typeof L === "undefined") return;
 
-            if (mapPerpustakaanInstance) {
-                mapPerpustakaanInstance.remove();
-                mapPerpustakaanInstance = null;
+            // Jika map sudah pernah dibuat
+            if (window.mapPerpustakaanInstance) {
+                window.mapPerpustakaanInstance.remove();
             }
 
-            const avgLat =
-                perpustakaanLocations.reduce((sum, item) => sum + item.lat, 0) /
-                perpustakaanLocations.length;
-            const avgLng =
-                perpustakaanLocations.reduce((sum, item) => sum + item.lng, 0) /
-                perpustakaanLocations.length;
+            window.mapPerpustakaanInstance = L.map("map-perpustakaan");
 
-            mapPerpustakaanInstance = L.map("map-perpustakaan").setView(
-                [avgLat, avgLng],
-                10,
+            L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+                    attribution: "&copy; OpenStreetMap &copy; CARTO",
+                    maxZoom: 19
+                }
+            ).addTo(window.mapPerpustakaanInstance);
+
+            // Batas wilayah Kabupaten Probolinggo
+            const probolinggoBounds = L.latLngBounds(
+                [-8.15, 112.90], // Barat Daya
+                [-7.45, 113.75] // Timur Laut
             );
 
-            L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-                maxZoom: 19,
-                attribution: "&copy; OpenStreetMap contributors",
-            }).addTo(mapPerpustakaanInstance);
+            // Batasi agar peta fokus di wilayah Kabupaten Probolinggo
+            window.mapPerpustakaanInstance.setMaxBounds(probolinggoBounds);
 
-            const markers = [];
-            perpustakaanLocations.forEach((lokasi) => {
-                const marker = L.marker([lokasi.lat, lokasi.lng])
-                    .addTo(mapPerpustakaanInstance)
-                    .bindPopup(
-                        `<strong>${lokasi.nama}</strong>${lokasi.alamat ? `<br>${lokasi.alamat}` : ""}`,
-                    );
-                markers.push(marker);
+            // Tampilan awal
+            window.mapPerpustakaanInstance.fitBounds(probolinggoBounds, {
+                padding: [20, 20]
             });
 
-            if (markers.length > 1) {
-                const group = L.featureGroup(markers);
-                mapPerpustakaanInstance.fitBounds(group.getBounds(), {
-                    padding: [40, 40],
-                });
-            }
-        }
+            // ==========================
+            // Marker Icon
+            // ==========================
 
+            const markerIcons = {
+
+                tinggi: new L.Icon({
+                    iconUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png",
+                    shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41],
+                    popupAnchor: [1, -34],
+                    shadowSize: [41, 41]
+                }),
+
+                sedang: new L.Icon({
+                    iconUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-orange.png",
+                    shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41],
+                    popupAnchor: [1, -34],
+                    shadowSize: [41, 41]
+                }),
+
+                rendah: new L.Icon({
+                    iconUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png",
+                    shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41],
+                    popupAnchor: [1, -34],
+                    shadowSize: [41, 41]
+                }),
+
+                default: new L.Icon({
+                    iconUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png",
+                    shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41],
+                    popupAnchor: [1, -34],
+                    shadowSize: [41, 41]
+                })
+
+            };
+
+            const markers = [];
+
+            perpustakaanLocations.forEach((lokasi) => {
+
+                const library = allLibraries.find(item =>
+                    normalizeName(item.nama) === normalizeName(lokasi.nama)
+                );
+
+                let icon = markerIcons.default;
+
+                if (library) {
+
+                    switch (library.kategori) {
+
+                        case "Tinggi":
+                            icon = markerIcons.tinggi;
+                            break;
+
+                        case "Sedang":
+                            icon = markerIcons.sedang;
+                            break;
+
+                        case "Rendah":
+                            icon = markerIcons.rendah;
+                            break;
+
+                        default:
+                            icon = markerIcons.default;
+                    }
+
+                }
+
+                // console.log(
+                //     lokasi.nama,
+                //     library ? "✅ MATCH" : "❌ TIDAK MATCH"
+                // );
+
+                const marker = L.marker(
+                        [lokasi.lat, lokasi.lng], {
+                            icon: icon
+                        }
+                    )
+                    .addTo(window.mapPerpustakaanInstance)
+                    .bindPopup(`
+                <div class="map-popup">
+
+                    <div class="popup-title">
+                        📚 ${lokasi.nama}
+                    </div>
+
+                    <div class="popup-divider"></div>
+
+                    <div class="popup-item">
+                        <span>Kategori</span>
+                        <b>${library ? library.kategori : "Belum Dinilai"}</b>
+                    </div>
+
+                    <div class="popup-item">
+                        <span>Skor KPI</span>
+                        <b>${library ? library.skor : "-"}</b>
+                    </div>
+
+                    <div class="popup-divider"></div>
+
+                    <a
+                        href="https://www.google.com/maps?q=${lokasi.lat},${lokasi.lng}"
+                        target="_blank"
+                        class="popup-btn-map"
+                        style="color:#ffffff !important; text-decoration:none;">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Buka di Google Maps
+                    </a>
+
+                    <button
+                        class="popup-btn-detail"
+                        onclick="${library ? `openDetailModal('${library.key}')` : ''}"
+                        ${library ? "" : "disabled"}>
+
+                        <i class="fa-solid fa-book-open"></i>
+                        Lihat Detail
+
+                    </button>
+
+                </div>
+            `);
+
+                markers.push(marker);
+
+            });
+
+            if (markers.length) {
+
+                const group = L.featureGroup(markers);
+
+                window.mapPerpustakaanInstance.fitBounds(group.getBounds(), {
+                    padding: [30, 30],
+                    maxZoom: 10
+                });
+
+            }
+
+        }
         // Helper membuat entri kosong jika perpustakaan tidak ada di data KPI tapi ada di data lain
         function createEmptyLibraryEntry(key, rawName) {
             return {
@@ -420,21 +535,44 @@
 
         // Menghitung & Menampilkan Rangkuman Counter Status
         function renderSummaryCounters(data) {
+
             const total = data.length;
+
             let tinggi = 0;
             let sedang = 0;
-            let rendahOrBelum = 0;
+            let rendah = 0;
+            let belum = 0;
 
             data.forEach(item => {
-                if (item.kategori === "Tinggi") tinggi++;
-                else if (item.kategori === "Sedang") sedang++;
-                else rendahOrBelum++; // Rendah + Belum Dinilai
+
+                switch (item.kategori) {
+
+                    case "Tinggi":
+                        tinggi++;
+                        break;
+
+                    case "Sedang":
+                        sedang++;
+                        break;
+
+                    case "Rendah":
+                        rendah++;
+                        break;
+
+                    default:
+                        belum++;
+                        break;
+
+                }
+
             });
 
             document.getElementById("count-total").innerText = total.toLocaleString("id-ID");
             document.getElementById("count-sangat-baik").innerText = tinggi.toLocaleString("id-ID");
             document.getElementById("count-cukup").innerText = sedang.toLocaleString("id-ID");
-            document.getElementById("count-kurang").innerText = rendahOrBelum.toLocaleString("id-ID");
+            document.getElementById("count-kurang").innerText = rendah.toLocaleString("id-ID");
+            document.getElementById("count-belum").innerText = belum.toLocaleString("id-ID");
+
         }
 
         // Populasikan list filter kecamatan
@@ -540,6 +678,11 @@
 
             // Render Pagination Buttons
             renderPaginationButtons();
+
+            // Sinkronkan marker di peta sesuai hasil filter
+            if (typeof updateMapMarkers === "function") {
+                updateMapMarkers(filteredLibraries);
+            }
         }
 
         // Membuat elemen Card HTML perpustakaan
@@ -559,16 +702,46 @@
 
             div.innerHTML = `
             <div>
-                <!-- Card Header -->
-                <div class="flex items-start justify-between gap-3 mb-4">
-                    <div class="h-10 w-10 sm:h-11 sm:w-11 items-center justify-center rounded-xl bg-theme-light text-base sm:text-lg text-theme-green flex shrink-0 shadow-sm">
-                        <i class="fa-solid fa-building-columns"></i>
-                    </div>
-                    <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wide uppercase ${badgeColorClass}">
-                        ${item.kategori}
-                    </span>
-                </div>
+                <!-- Header Card -->
+                <div class="flex items-start justify-between mb-5">
 
+                    <!-- Icon Perpustakaan -->
+                    <div class="flex items-center gap-3">
+
+                        <div class="h-14 w-14 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white flex items-center justify-center shadow-lg">
+                            <i class="fa-solid fa-book-open-reader text-2xl"></i>
+                        </div>
+
+                        <div>
+                            <p class="text-xs text-slate-400 uppercase tracking-wider font-semibold">
+                                Perpustakaan Desa
+                            </p>
+
+                            <p class="text-xs text-slate-500 mt-1">
+                                Kabupaten Probolinggo
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <!-- Badge KPI -->
+                    <span class="px-3 py-1 rounded-full text-xs font-bold flex items-center gap-1 ${badgeColorClass}">
+
+                        ${
+                            item.kategori === "Tinggi"
+                            ? '<i class="fa-solid fa-circle text-[8px]"></i>'
+                            : item.kategori === "Sedang"
+                            ? '<i class="fa-solid fa-circle text-[8px]"></i>'
+                            : item.kategori === "Rendah"
+                            ? '<i class="fa-solid fa-circle text-[8px]"></i>'
+                            : '<i class="fa-regular fa-circle text-[8px]"></i>'
+                        }
+
+                        ${item.kategori}
+
+                    </span>
+
+                </div>
                 <!-- Card Body -->
                 <h4 class="font-bold text-slate-800 text-base line-clamp-2 min-h-[3rem]" title="${item.nama}">
                     ${item.nama}

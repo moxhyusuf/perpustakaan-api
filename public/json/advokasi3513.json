@@ -2,6 +2,111 @@
     "status": "success",
     "data": [
         {
+            "perpus_nama": "Perpustakaan Desa Alas Tengah",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": "Paiton",
+            "desa_name": "Alastengah",
+            "tanggal": "2026-07-15",
+            "judul": "Strategi optimalisasi peran perpustakaan desa bersama pemerintaha kecamatan paiton",
+            "sasaran": [
+                "Perangkat Daerah"
+            ],
+            "hasil": "NonDana",
+            "hasil_regulasi": "-",
+            "attachment": null,
+            "nominal": 0,
+            "jumlah_narasumber": 0,
+            "jumlah_barang": 0,
+            "tanggal_terbit": null,
+            "tanggal_input": "2026-07-16",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
+            "perpus_nama": "Perpustakaan Desa Alas Tengah",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": "Paiton",
+            "desa_name": "Alastengah",
+            "tanggal": "2026-07-14",
+            "judul": "Strategi Advokasi program optimalisasi peran kepemudaan  $ kelembagaan kpd dDPMD kabupaten",
+            "sasaran": [
+                "Perangkat Daerah"
+            ],
+            "hasil": "NonDana",
+            "hasil_regulasi": "-",
+            "attachment": null,
+            "nominal": 0,
+            "jumlah_narasumber": 0,
+            "jumlah_barang": 0,
+            "tanggal_terbit": null,
+            "tanggal_input": "2026-07-16",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
+            "perpus_nama": "Perpustakaan Probolinggo",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": " - ",
+            "desa_name": " - ",
+            "tanggal": "2026-07-14",
+            "judul": "Mendapat Dukungan Narasumber dari Penulis Berprestasi Nasional untuk Mengadakan Kelas Menulis",
+            "sasaran": [
+                "Perangkat Daerah"
+            ],
+            "hasil": "NonDana",
+            "hasil_regulasi": "-",
+            "attachment": null,
+            "nominal": 0,
+            "jumlah_narasumber": 1,
+            "jumlah_barang": 0,
+            "tanggal_terbit": null,
+            "tanggal_input": "2026-07-16",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
+            "perpus_nama": "Perpustakaan Probolinggo",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": " - ",
+            "desa_name": " - ",
+            "tanggal": "2026-07-01",
+            "judul": "Mendapatkan narasumber dari Mudin desa Bago untuk kegiatan Mamacah Ogem",
+            "sasaran": [
+                "Perangkat Daerah"
+            ],
+            "hasil": "NonDana",
+            "hasil_regulasi": "-",
+            "attachment": null,
+            "nominal": 0,
+            "jumlah_narasumber": 2,
+            "jumlah_barang": 0,
+            "tanggal_terbit": null,
+            "tanggal_input": "2026-07-15",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
+            "perpus_nama": "Perpustakaan Probolinggo",
+            "provinsi_name": "Jawa Timur",
+            "kabupaten_name": "Kab. Probolinggo",
+            "kecamatan_name": " - ",
+            "desa_name": " - ",
+            "tanggal": "2026-07-14",
+            "judul": "Mendapatkan dukungan narasumber dari Universitas Zainul Hasan, Prodi Ilmu Seni dan Arsitektur Islam dalam kegiatan Belajar Meluk",
+            "sasaran": [
+                "Perangkat Daerah"
+            ],
+            "hasil": "NonDana",
+            "hasil_regulasi": "-",
+            "attachment": null,
+            "nominal": 0,
+            "jumlah_narasumber": 10,
+            "jumlah_barang": 0,
+            "tanggal_terbit": null,
+            "tanggal_input": "2026-07-15",
+            "is_verified": "Sudah Diverifikasi"
+        },
+        {
             "perpus_nama": "Perpustakaan Probolinggo",
             "provinsi_name": "Jawa Timur",
             "kabupaten_name": "Kab. Probolinggo",

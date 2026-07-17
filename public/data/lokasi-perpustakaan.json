@@ -1,0 +1,470 @@
+[
+    {
+        "id": 1,
+        "nama": "Perpustakaan Probolinggo",
+        "lat": -7.761718338741554,
+        "lng": 113.41745946440774
+    },
+    {
+        "id": 2,
+        "nama": "Perpustakaan Patriot Desa Brumbungan Lor",
+        "lat": -7.793262401807052,
+        "lng": 113.34034081219939
+    },
+    {
+        "id": 3,
+        "nama": "Rumah Baca Cahaya Probolinggo",
+        "lat": -7.820341024033946,
+        "lng": 113.17969492355932
+    },
+    {
+        "id": 4,
+        "nama": "B24 Perpustakaan Desa Iqro'",
+        "lat": -7.820870682411544,
+        "lng": 113.32287568316617
+    },
+    {
+        "id": 5,
+        "nama": "Perpustakaan Mentari Pustaka",
+        "lat": -7.8047067264051595,
+        "lng": 113.32834945551755
+    },
+    {
+        "id": 6,
+        "nama": "Perpustakaan Alas Nyiur",
+        "lat": -7.79314172348907,
+        "lng": 113.50344406197904
+    },
+    {
+        "id": 7,
+        "nama": "Perpustakaan Bago",
+        "lat": -7.828701609816044,
+        "lng": 113.49415701034826
+    },
+    {
+        "id": 8,
+        "nama": "Perpustakaan Sentul Kab Probolinggo",
+        "lat": -7.845259138635394,
+        "lng": 113.48657956411525
+    },
+    {
+        "id": 9,
+        "nama": "B24 Perpustakaan Delarasati",
+        "lat": -7.785083936371453,
+        "lng": 113.34423854237833
+    },
+    {
+        "id": 10,
+        "nama": "Perpustakaan Desa Sebaung",
+        "lat": -7.80968607751811,
+        "lng": 113.31070575303326
+    },
+    {
+        "id": 11,
+        "nama": "Perpustakaan Desa Taman Baca Mbah Koneng",
+        "lat": -7.721633190413267,
+        "lng": 113.5409321136283
+    },
+    {
+        "id": 12,
+        "nama": "Perpustakaan Kedungrejoso",
+        "lat": -7.748377827765801,
+        "lng": 113.52003775247546
+    },
+    {
+        "id": 13,
+        "nama": "Perpustakaan Desa Sidopekso",
+        "lat": -7.750605875865514,
+        "lng": 113.42544988316499
+    },
+    {
+        "id": 14,
+        "nama": "Perpustakaan Desa Kregenan Kecamatan Kraksaan",
+        "lat": -7.7803053902245916,
+        "lng": 113.38518529480369
+    },
+    {
+        "id": 15,
+        "nama": "Perpustakaan Sumberlele",
+        "lat": -7.760025641775184,
+        "lng": 113.43857156596721
+    },
+    {
+        "id": 16,
+        "nama": "Perpustakaan Cendekia Kamalkuning",
+        "lat": -7.790522860767382,
+        "lng": 113.39811204613552
+    },
+    {
+        "id": 17,
+        "nama": "Perpustakaan Desa Kedawung",
+        "lat": -7.8705237292105945,
+        "lng": 113.14338684404073
+    },
+    {
+        "id": 18,
+        "nama": "B24 Perpustakaan Lentera Berdawung",
+        "lat": -7.843898009008618,
+        "lng": 113.22929366951324
+    },
+    {
+        "id": 19,
+        "nama": "Perpustakaan Desa Jorongan",
+        "lat": -7.817937193519432,
+        "lng": 113.21921498131287
+    },
+    {
+        "id": 20,
+        "nama": "Perpustakaan Desa Alas Tengah",
+        "lat": -7.761453254256895,
+        "lng": 113.48994700040545
+    },
+    {
+        "id": 21,
+        "nama": "Perpustakaan Pondokkelor Pintar",
+        "lat": -7.70926235507963,
+        "lng": 113.51028012363868
+    },
+    {
+        "id": 22,
+        "nama": "Perpustakaan Sumberrejo",
+        "lat": -7.729506398364305, 
+        "lng": 113.53945695408726
+    },
+    {
+        "id": 23,
+        "nama": "Perpustakaan Desa Laweyan Kecamatan Sumberasih",
+        "lat": -7.795795339367385,
+        "lng": 113.17271783527839
+    },
+    {
+        "id": 24,
+        "nama": "Perpustakaan Harapan Bangsa",
+        "lat": -7.84897194888845,
+        "lng": 113.27120963778955
+    },
+    {
+        "id": 25,
+        "nama": "Perpustakaan Jendela Dunia",
+        "lat": -7.841566378773534,
+        "lng": 113.24963050040544
+    },
+    {
+        "id": 26,
+        "nama": "B24 Perpustakaan Rumah Cahaya (Rumah Baca Hasilkan Karya)",
+        "lat": -7.813677207698116,
+        "lng": 113.16371798525456
+    },
+    {
+        "id": 27,
+        "nama": "Perpustakaan Desa Gema Cerdas",
+        "lat": -7.764349039051903,
+        "lng": 113.26071469665663
+    },
+    {
+        "id": 28,
+        "nama": "Perpustakaan Desa Gemilang Jaya",
+        "lat": -7.837327176755229,
+        "lng": 113.04963192364083
+    },
+    {
+        "id": 29,
+        "nama": "Perpustakaan Taman Baca Kali Bambu",
+        "lat": -7.753567923651866,
+        "lng": 113.49488765247553
+    },
+    {
+        "id": 30,
+        "nama": "TBM Pelita Aksara Probolinggo",
+        "lat": -7.670163500619805, 
+        "lng": 113.13446048133888
+    },
+    {
+        "id": 31,
+        "nama": "Perpustakaan Alaskandang",
+        "lat": -7.76366610440408,
+        "lng": 113.47317013713116
+    },
+    {
+        "id": 32,
+        "nama": "Perpustakaan Andungbiru",
+        "lat": -7.986414973602525,
+        "lng": 113.437110408298689
+    },
+    {
+        "id": 33,
+        "nama": "Perpustakaan Asembagus",
+        "lat": -7.720177449107097, 
+        "lng": 113.40328218125711
+    },
+    {
+        "id": 34,
+        "nama": "Perpustakaan Bantaran",
+        "lat": -7.86489815017616,
+        "lng": 113.178857438986
+    },
+    {
+        "id": 35,
+        "nama": "Perpustakaan Bayeman",
+        "lat": -7.727881698508911,
+        "lng": 113.1239491135232
+    },
+    {
+        "id": 36,
+        "nama": "Perpustakaan Bhinor",
+        "lat": -7.718727229037501,
+        "lng": 113.55202648234838
+    },
+    {
+        "id": 37,
+        "nama": "Perpustakaan Blado Kulon",
+        "lat": -7.849911606654533,
+        "lng": 113.28165542742606
+    },
+    {
+        "id": 38,
+        "nama": "Perpustakaan Brumbungan Lor",
+        "lat": -7.79878611311029,
+        "lng": 113.33999975286166
+    },
+    {
+        "id": 39,
+        "nama": "Perpustakaan Desa Ambulu",
+        "lat": -7.7293981907695315,
+        "lng": 113.14212270648707
+    },
+    {
+        "id": 40,
+        "nama": "Perpustakaan Desa Bulu Cerdas",
+        "lat": -7.745473475205722,
+        "lng": 113.41814881926523
+    },
+    {
+        "id": 41,
+        "nama": "Perpustakaan Desa Cretivox",
+        "lat": -7.7660565619587505,
+        "lng": 113.24335276596716
+    },
+    {
+        "id": 42,
+        "nama": "Perpustakaan Desa Curahtulis",
+        "lat": -7.723217078527655,
+        "lng": 113.08913682363885
+    },
+    {
+        "id": 43,
+        "nama": "Perpustakaan Desa Dandang",
+        "lat": -7.752048460851594,
+        "lng": 113.48946405887331
+    },
+    {
+        "id": 44,
+        "nama": "Perpustakaan Desa Deska",
+        "lat": -7.721051549262212,
+        "lng": 113.49699562568438
+    },
+    {
+        "id": 45,
+        "nama": "Perpustakaan Desa Harmoni",
+        "lat": -7.729535996273319, 
+        "lng": 113.49537722276422
+    },
+    {
+        "id": 46,
+        "nama": "Perpustakaan Desa Jambangan",
+        "lat": -7.783129364139497,
+        "lng": 113.48871017958025
+    },
+    {
+        "id": 47,
+        "nama": "Perpustakaan Desa Jatiurip",
+        "lat": -7.798747504248351,
+        "lng": 113.39261566782109
+    },
+    {
+        "id": 48,
+        "nama": "Perpustakaan Desa Kedungcaluk",
+        "lat": -7.789605756946851,
+        "lng": 113.42683929480384
+    },
+    {
+        "id": 49,
+        "nama": "Perpustakaan Desa Kembeng Gedding",
+        "lat": -7.953575775083749,
+        "lng": 113.47188359668617
+    },
+    {
+        "id": 50,
+        "nama": "Perpustakaan Desa Kerpangan",
+        "lat": -7.827072268104675,
+        "lng": 113.21764139480447
+    },
+    {
+        "id": 51,
+        "nama": "Perpustakaan Desa Kertosono",
+        "lat": -7.831650386864766,
+        "lng": 113.4698846371323
+    },
+    {
+        "id": 52,
+        "nama": "Perpustakaan Desa Klenang Kidul",
+        "lat": -7.852113739988848,
+        "lng": 113.32882405752075
+    },
+    {
+        "id": 53,
+        "nama": "Perpustakaan Desa Krajan",
+        "lat": -7.947437002126042,
+        "lng": 113.02747118316829
+    },
+    {
+        "id": 54,
+        "nama": "Perpustakaan Desa Leces",
+        "lat": -7.841045373670527,
+        "lng": 113.22094418846316
+    },
+    {
+        "id": 55,
+        "nama": "Perpustakaan Desa Lemah Kembar",
+        "lat": -7.747815258254018,
+        "lng": 113.15716839294996
+    },
+    {
+        "id": 56,
+        "nama": "Perpustakaan Desa Liprak Kulon",
+        "lat": -7.840561593523742,
+        "lng": 113.30299099665794
+    },
+    {
+        "id": 57,
+        "nama": "Perpustakaan Desa Mentari",
+        "lat": -7.7136884985788345, 
+        "lng": 113.08745403685992
+    },
+    {
+        "id": 58,
+        "nama": "Perpustakaan Desa Opo Opo",
+        "lat": -7.8099962369713305,
+        "lng": 113.40487515062327
+    },
+    {
+        "id": 59,
+        "nama": "Perpustakaan Desa Pabean",
+        "lat": -7.750081043309299,
+        "lng": 113.23426743015031
+    },
+    {
+        "id": 60,
+        "nama": "Perpustakaan Desa Pajurangan",
+        "lat": -7.793064008102988,
+        "lng": 113.29997313713163
+    },
+    {
+        "id": 61,
+        "nama": "Perpustakaan Desa Pakuniran",
+        "lat": -7.791838375057664,
+        "lng": 113.55010947378688
+    },
+    {
+        "id": 62,
+        "nama": "Perpustakaan Desa Pelita Condong",
+        "lat": -7.873188938146196,
+        "lng": 113.3789308524777
+    },
+    {
+        "id": 63,
+        "nama": "Perpustakaan Desa Pustakaren",
+        "lat": -7.818948635972669,
+        "lng": 113.19470921014913
+    },
+    {
+        "id": 64,
+        "nama": "Perpustakaan Desa Rangkang Probolinggo",
+        "lat": -7.769488233701673,
+        "lng": 113.42930798131205
+    },
+    {
+        "id": 65,
+        "nama": "Perpustakaan Desa Sang Juara",
+        "lat": -7.843655854599122, 
+        "lng": 113.2027816850697
+    },
+    {
+        "id": 66,
+        "nama": "Perpustakaan Desa Smart Village Kalisalam",
+        "lat": -7.766911849658695,
+        "lng": 113.25351021200134
+    },
+    {
+        "id": 67,
+        "nama": "Perpustakaan Desa Sukapura",
+        "lat": -7.880866659592012, 
+        "lng": 113.05210763686223
+    },
+    {
+        "id": 68,
+        "nama": "Perpustakaan Desa Sukokerto",
+        "lat": -8.05270875416145, 
+        "lng": 113.81472940802811
+    },
+    {
+        "id": 69,
+        "nama": "Perpustakaan Desa Sumber Kembar",
+        "lat": -7.794346597977111,
+        "lng": 113.5155926082954
+    },
+    {
+        "id": 70,
+        "nama": "Perpustakaan Desa Sumberanyar Kecamatan Paiton",
+        "lat": -7.728784706426146, 
+        "lng": 113.52620540830074
+    },
+    {
+        "id": 71,
+        "nama": "Perpustakaan Desa Sumberkare",
+        "lat": -7.802747249719974,
+        "lng": 113.14743559665722
+    },
+    {
+        "id": 72,
+        "nama": "Perpustakaan Desa Setulus Hati",
+        "lat": -7.7741684877613855,
+        "lng": 113.23908260829505
+    },
+    {
+        "id": 73,
+        "nama": "Perpustakaan Desa Tegalwatu",
+        "lat": -7.903152472738451,
+        "lng": 113.32828062364193
+    },
+    {
+        "id": 74,
+        "nama": "Perpustakaan Desa Wringinanom",
+        "lat": -7.875130494435099,
+        "lng": 113.0944700678224
+    },
+    {
+        "id": 75,
+        "nama": "Perpustakaan Dungun",
+        "lat": -7.734603924948619,
+        "lng": 113.11811791596674
+    },
+    {
+        "id": 76,
+        "nama": "Perpustakaan Duren Mandiri",
+        "lat": -7.854256080350829,
+        "lng": 113.4758968083371
+    },
+    {
+        "id": 77,
+        "nama": "Perpustakaan Gading Wetan",
+        "lat": -7.85174285921999,
+        "lng": 113.43561008061354
+    },
+    {
+        "id": 78,
+        "nama": "Perpustakaan Desa Pohsangit Tengah",
+        "lat": -7.821886486005688, 
+        "lng": 113.17690888105805
+    }
+]

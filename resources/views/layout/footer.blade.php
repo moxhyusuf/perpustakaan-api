@@ -18,10 +18,50 @@
         </div>
         <div class="flex items-center gap-3">
             <span class="text-sm font-medium text-slate-600">Ikuti kami:</span>
-            <a href="#" class="flex h-10 w-10 items-center justify-center rounded-full bg-theme-green text-white transition hover:bg-theme-dark"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#" class="flex h-10 w-10 items-center justify-center rounded-full bg-theme-green text-white transition hover:bg-theme-dark"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#" class="flex h-10 w-10 items-center justify-center rounded-full bg-theme-green text-white transition hover:bg-theme-dark"><i class="fa-brands fa-youtube"></i></a>
-            <a href="#" class="flex h-10 w-10 items-center justify-center rounded-full bg-theme-green text-white transition hover:bg-theme-dark"><i class="fa-solid fa-globe"></i></a>
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/dispersip.kabprobolinggo?mibextid=rS40aB7S9Ucbxw6v"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+            class="flex h-10 w-10 items-center justify-center rounded-full bg-theme-green text-white transition hover:bg-theme-dark hover:scale-110">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/dispersip.kabprobolinggo?igsh=MXB2OWF6a25sZjRnMA=="
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            class="flex h-10 w-10 items-center justify-center rounded-full bg-theme-green text-white transition hover:bg-theme-dark hover:scale-110">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <!-- YouTube -->
+            <a href="https://youtube.com/@dispersipkab.probolinggo8171?si=hd-Lz52yz8VrV5sl"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="YouTube"
+            class="flex h-10 w-10 items-center justify-center rounded-full bg-theme-green text-white transition hover:bg-theme-dark hover:scale-110">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+
+            <!-- TikTok -->
+            <a href="https://vt.tiktok.com/ZSCsM7FuL/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="TikTok"
+            class="flex h-10 w-10 items-center justify-center rounded-full bg-theme-green text-white transition hover:bg-theme-dark hover:scale-110">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+
+            <!-- Website -->
+            <a href="https://dispersip.probolinggokab.go.id/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Website"
+            class="flex h-10 w-10 items-center justify-center rounded-full bg-theme-green text-white transition hover:bg-theme-dark hover:scale-110">
+                <i class="fa-solid fa-globe"></i>
+            </a>
         </div>
     </div>
 </footer>
